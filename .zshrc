@@ -98,7 +98,12 @@ alias gitall='git add . && gitam '
 alias reshell='exec $SHELL'
 
 alias got='git '
+
+## don't like using rake
 alias koans='ruby path_to_enlightenment.rb'
+
+## serve the current folder on local host
+alias serveFolder='python -m SimpleHTTPServer'
 
 alias works='cd ~/Documents/workzy/ '
 alias studio='cd ~/StudioProjects/ '
@@ -117,3 +122,8 @@ export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 
 alias prof='subl ~/.zshrc '
 alias docs='cd ~/Documents'
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+### Android paths
+export ANDROID_HOME=/media/colle/ubuntu/home/colleowino/apollo/sdk
