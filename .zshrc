@@ -1,11 +1,12 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/colle/.oh-my-zsh
+export ZSH=/home/cliff/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="robbyrussell"
+#ZSH_THEME="chris"
 ZSH_THEME="avit"
 
 # Uncomment the following line to use case-sensitive completion.
@@ -80,24 +81,22 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+#reload shell
+alias reshell='exec $shell'
+
+#git alias
 alias gls='git status '
+alias gitall='git add . && gitam '
+alias gitup='git push origin master'
+alias gitam='git commit -am '
+alias gitdwn='git pull origin master'
 alias ga='git add '
 alias gb='git branch '
 alias gc='git commit'
 alias gd='git diff'
 alias repoget='git clone '
-# alias go='git checkout '
 alias gk='gitk --all&'
 alias gx='gitx --all'
-
-alias gitup='git push origin master'
-alias gitdwn='git pull origin master'
-alias gitam='git commit -am '
-alias gitall='git add . && gitam '
-
-alias reshell='exec $SHELL'
-
-alias got='git '
 
 ## don't like using rake
 alias koans='ruby path_to_enlightenment.rb'
@@ -105,25 +104,32 @@ alias koans='ruby path_to_enlightenment.rb'
 ## serve the current folder on local host
 alias serveFolder='python -m SimpleHTTPServer'
 
-alias works='cd ~/Documents/workzy/ '
-alias studio='cd ~/StudioProjects/ '
-alias singme='cd /media/colle/ubuntu/home/colleowino/Documents/singme/ '
-alias repo='cd /media/colle/ubuntu/home/colleowino/Desktop/xul/repo/ '
-alias rails_apps='cd /media/colle/ubuntu/home/colleowino/Desktop/xul/repo/rails_pages/ '
-
+# apt-get shortcuts
 alias aptinst='sudo apt-get install'
 alias aptrepo='sudo add-apt-repository'
 alias aptnew='sudo apt-get update'
 alias ytdl='youtube-dl -f 18 '
+
+### added by the heroku toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+## folders
+alias docs='cd ~/documents'
+alias dwnl='cd ~/downloads'
+alias dropb='cd ~/dropbox'
+
+#get mp4 videos
+alias ytdl='youtube-dl -f 18 '
+
+#edit basic shell and vim profiles
+alias vimprof="vim ~/.vimrc"
+alias prof="prof ~/.zshrc"
+
+#manager ruby through rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 
-alias prof='subl ~/.zshrc '
-alias docs='cd ~/Documents'
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
-### Android paths
-export ANDROID_HOME=/media/colle/ubuntu/home/colleowino/apollo/sdk
+#postgres install
+export PATH="/usr/lib/postgresql/9.4/bin:$PATH"
