@@ -6,7 +6,6 @@
 	set autoindent					" set auto indent
 	colorscheme monokai
 	set number							"	enable line numbering
-	
 	set incsearch						" highlight as i type the search keyword
 	set hlsearch						" highlight found words after search
 	
@@ -22,5 +21,12 @@
 		au InsertLeave * hi StatusLine ctermbg=240 ctermfg=12
 	endif
 			
+	" use kj to leave insert mode 
+	inoremap kj <Esc>				
 	" Don't swap in my working directory
-set directory^=$HOME/.vim/swap/
+	set directory^=$HOME/.vim/swap/
+	set title								" let vim modify the terminal title
+
+	set timeoutlen=200
+	
+

@@ -117,6 +117,7 @@ alias docs='cd ~/Documents'
 alias dwnl='cd ~/Downloads'
 alias dropb='cd ~/Dropbox'
 alias xtrarepo='cd ~/Documents/source-code/misc'
+alias liveservers='cd ~/live-servers'
 
 #get mp4 videos
 alias ytdl='youtube-dl -f 18 '
@@ -124,6 +125,7 @@ alias ytdl='youtube-dl -f 18 '
 #edit basic shell and vim profiles
 alias vimprof="vim ~/.vimrc"
 alias prof="vim ~/.zshrc"
+alias tmuxprof="vim ~/.tmux.conf"
 
 #manager ruby through rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
