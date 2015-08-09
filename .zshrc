@@ -5,9 +5,8 @@ export ZSH=/home/cliff/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-#ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster"
 #ZSH_THEME="chris"
-ZSH_THEME="avit"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -117,6 +116,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 alias docs='cd ~/Documents'
 alias dwnl='cd ~/Downloads'
 alias dropb='cd ~/Dropbox'
+alias xtrarepo='cd ~/Documents/source-code/misc'
 
 #get mp4 videos
 alias ytdl='youtube-dl -f 18 '
