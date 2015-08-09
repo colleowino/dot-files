@@ -84,6 +84,7 @@ source $ZSH/oh-my-zsh.sh
 alias reshell='exec $SHELL'
 
 #git alias
+alias gitline='git l'
 alias gls='git status '
 alias gitall='git add . && gitam '
 alias gitup='git push origin master'
