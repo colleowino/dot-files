@@ -30,3 +30,11 @@
 	set timeoutlen=200
 	execute pathogen#infect()
 
+	" Automatic commands
+	if has("autocmd")
+		" Enable file type detection
+		filetype on
+		" Treat .json file as .js
+		autocmd BufNewFile,Bufread *.json setfiletype json syntax=javascript
+	endif
+
