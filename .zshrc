@@ -77,78 +77,31 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#reload shell
-alias reshell='exec $SHELL'
-
-#git alias
-alias gitline='git l'
-alias gls='git status '
-alias gitall='git add . && gitam '
-alias gitup='git push origin master'
-alias gitam='git commit -am '
-alias gitdwn='git pull origin master'
-alias ga='git add '
-alias gb='git branch '
-alias gc='git commit'
-alias gd='git diff'
-alias repoget='git clone '
-alias gk='gitk --all&'
-alias gx='gitx --all'
+#move all alias to separte file
+if [ -f ~/.bash_aliases ]; then 
+	. ~/.bash_aliases
+fi
 
 # default editors
 export EDITOR="vim"
 export PROFILE="~/.zshrc"
-
-## don't like using rake
-alias koans='ruby path_to_enlightenment.rb'
-
-## serve the current folder on local host
-alias serveFolder='python -m SimpleHTTPServer'
-
-# apt-get shortcuts
-alias aptinst='sudo apt-get install'
-alias aptrepo='sudo add-apt-repository'
-alias aptnew='sudo apt-get update'
-alias ytdl='youtube-dl -f 18 '
-
-### added by the heroku toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
-## folders
-alias docs='cd ~/Documents'
-alias dwnl='cd ~/Downloads'
-alias dropb='cd ~/Dropbox'
-alias xtrarepo='cd ~/Documents/source-code/misc'
-alias liveservers='cd ~/live-servers'
-
-#get mp4 videos
-alias ytdl='youtube-dl -f 18 '
-
-#edit basic shell and vim profiles
-alias vimprof="vim ~/.vimrc"
-alias prof="vim ~/.zshrc"
-alias tmuxprof="vim ~/.tmux.conf"
-alias bashprof="vim ~/.bashrc"
 
 #manager ruby through rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
-export PATH="$HOME/live-servers/mongodb/bin:$PATH"
 
+### added by the heroku toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+#### mongodb
+export PATH="$HOME/live-servers/mongodb/bin:$PATH"
 
 #postgres install
 export PATH="/usr/lib/postgresql/9.4/bin:$PATH"
 
-#use same oh-my-zsh theme in tmux
-alias tmux="TERM=screen-256color-bce tmux"
-
-#add cpanm to path for vimana installation
-# [https://github.com/c9s/Vimana]
-# export PATH="$HOME/bin:$PATH"
-# export PATH="$HOME/perl5/bin:$PATH"
-
 #export perl5 lib
+# [https://github.com/c9s/Vimana]
 export PERL5LIB="$HOME/perl5/lib/perl5"
 export PATH="$HOME/perl5/bin:$PATH"
