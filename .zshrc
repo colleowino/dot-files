@@ -146,10 +146,9 @@ alias tmux="TERM=screen-256color-bce tmux"
 
 #add cpanm to path for vimana installation
 # [https://github.com/c9s/Vimana]
-export PATH="$HOME/bin:$PATH"
-export PATH="$HOME/perl5/bin:$PATH"
+# export PATH="$HOME/bin:$PATH"
+# export PATH="$HOME/perl5/bin:$PATH"
 
 #export perl5 lib
-export PERL5LIB="~/perl5/lib/perl5;$PERL5LIB"
-
-
+export PERL5LIB="$HOME/perl5/lib/perl5"
+export PATH="$HOME/perl5/bin:$PATH"
