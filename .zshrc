@@ -126,6 +126,7 @@ export PROFILE="~/.zshrc"
 alias vimprof="vim ~/.vimrc"
 alias prof="vim ~/.zshrc"
 alias tmuxprof="vim ~/.tmux.conf"
+alias bashprof="vim ~/.bashrc"
 
 #manager ruby through rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
