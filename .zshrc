@@ -124,6 +124,7 @@ alias liveservers='cd ~/live-servers'
 alias ytdl='youtube-dl -f 18 '
 
 #edit basic shell and vim profiles
+export PROFILE="~/.zshrc"
 alias vimprof="vim ~/.vimrc"
 alias prof="vim ~/.zshrc"
 alias tmuxprof="vim ~/.tmux.conf"
