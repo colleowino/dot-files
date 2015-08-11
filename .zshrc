@@ -144,10 +144,12 @@ export PATH="/usr/lib/postgresql/9.4/bin:$PATH"
 #use same oh-my-zsh theme in tmux
 alias tmux="TERM=screen-256color-bce tmux"
 
-#export perl5 lib
-export PERL5LIB="~/perl5/lib/perl5;$PERL5LIB"
-
 #add cpanm to path for vimana installation
 # [https://github.com/c9s/Vimana]
 export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/perl5/bin:$PATH"
+
+#export perl5 lib
+export PERL5LIB="~/perl5/lib/perl5;$PERL5LIB"
+
 
