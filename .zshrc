@@ -1,5 +1,5 @@
- # Path to your oh-my-zsh installation.  export ZSH=/home/cliff/.oh-my-zsh Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
+# Path to your oh-my-zsh installation.  export ZSH=/home/cliff/.oh-my-zsh Set name of the theme to load.
+export ZSH="/home/cliff/.oh-my-zsh"
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="agnoster"
