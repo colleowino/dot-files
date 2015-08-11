@@ -135,8 +135,8 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
-
 export PATH="$HOME/live-servers/mongodb/bin:$PATH"
+
 
 #postgres install
 export PATH="/usr/lib/postgresql/9.4/bin:$PATH"
@@ -147,4 +147,7 @@ alias tmux="TERM=screen-256color-bce tmux"
 #export perl5 lib
 export PERL5LIB="~/perl5/lib/perl5;$PERL5LIB"
 
+#add cpanm to path for vimana installation
+# [https://github.com/c9s/Vimana]
+export PATH="$HOME/bin:$PATH"
 
