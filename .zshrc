@@ -1,6 +1,4 @@
- # Path to your oh-my-zsh installation.
-export ZSH=/home/cliff/.oh-my-zsh
-
+ # Path to your oh-my-zsh installation.  export ZSH=/home/cliff/.oh-my-zsh 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -143,3 +141,5 @@ export PATH="/usr/lib/postgresql/9.4/bin:$PATH"
 #use same oh-my-zsh theme in tmux
 alias tmux="TERM=screen-256color-bce tmux"
 
+#export perl5 lib
+export PERL5LIB="~/perl5/lib/perl5;$PERL5LIB"
