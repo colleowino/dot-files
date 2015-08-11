@@ -1,5 +1,4 @@
- # Path to your oh-my-zsh installation.  export ZSH=/home/cliff/.oh-my-zsh 
-# Set name of the theme to load.
+ # Path to your oh-my-zsh installation.  export ZSH=/home/cliff/.oh-my-zsh Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
@@ -96,6 +95,10 @@ alias repoget='git clone '
 alias gk='gitk --all&'
 alias gx='gitx --all'
 
+# default editors
+export EDITOR="vim"
+export PROFILE="~/.zshrc"
+
 ## don't like using rake
 alias koans='ruby path_to_enlightenment.rb'
 
@@ -122,7 +125,6 @@ alias liveservers='cd ~/live-servers'
 alias ytdl='youtube-dl -f 18 '
 
 #edit basic shell and vim profiles
-export PROFILE="~/.zshrc"
 alias vimprof="vim ~/.vimrc"
 alias prof="vim ~/.zshrc"
 alias tmuxprof="vim ~/.tmux.conf"
@@ -144,3 +146,5 @@ alias tmux="TERM=screen-256color-bce tmux"
 
 #export perl5 lib
 export PERL5LIB="~/perl5/lib/perl5;$PERL5LIB"
+
+
