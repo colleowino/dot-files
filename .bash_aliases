@@ -36,6 +36,7 @@ alias dwnl='cd ~/Downloads'
 alias dropb='cd ~/Dropbox'
 alias xtrarepo='cd ~/Documents/source-code/misc'
 alias liveservers='cd ~/live-servers'
+alias source-code='cd ~/Documents/source-code'
 
 #get mp4 videos
 alias ytdl='youtube-dl -f 18 '
@@ -45,6 +46,7 @@ alias vimprof="vim ~/.vimrc"
 alias prof="vim ~/.zshrc"
 alias tmuxprof="vim ~/.tmux.conf"
 alias bashprof="vim ~/.bashrc"
+alias aliaslist="vim ~/.bash_aliases"
 
 #use same oh-my-zsh theme in tmux
 alias tmux="TERM=screen-256color-bce tmux"
