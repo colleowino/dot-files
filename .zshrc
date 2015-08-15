@@ -2,7 +2,7 @@
 export ZSH="/home/cliff/.oh-my-zsh"
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="agnoster"
+ZSH_THEME="chris"
 #ZSH_THEME="chris"
 
 # Uncomment the following line to use case-sensitive completion.
@@ -105,3 +105,5 @@ export PATH="/usr/lib/postgresql/9.4/bin:$PATH"
 # [https://github.com/c9s/Vimana]
 export PERL5LIB="$HOME/perl5/lib/perl5"
 export PATH="$HOME/perl5/bin:$PATH"
+
+export ANDROID_HOME="/mnt/947ED7B07ED7897E/ubuntu_files/sdk"
