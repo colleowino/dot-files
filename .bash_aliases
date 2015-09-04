@@ -51,3 +51,4 @@ alias aliaslist="vim ~/.bash_aliases"
 #use same oh-my-zsh theme in tmux
 alias tmux="TERM=screen-256color-bce tmux"
 
+alias tree="tree -L 1 -C"

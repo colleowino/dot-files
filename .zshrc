@@ -112,3 +112,12 @@ export ANDROID_HOME="/mnt/947ED7B07ED7897E/ubuntu_files/sdk"
 stty start undef
 stty stop undef
 setopt noflowcontrol
+
+#add electron to path
+export PATH="~/Documents/source-code/misc/electron:$PATH"
+export PATH="$PATH:/usr/local/go/bin"
+
+export CALIBRE_DEVELOP_FROM="~/Documents/source-code/misc/calibre/src"
+
+#change default npm path
+export PATH="~/npm-global/bin:$PATH"
