@@ -39,7 +39,7 @@ alias liveservers='cd ~/live-servers'
 alias source-code='cd ~/Documents/source-code'
 
 #get mp4 videos
-alias ytdl='youtube-dl -f 18 '
+alias ytdl='youtube-dl -f 18 --no-cache '
 
 #edit basic shell and vim profiles
 alias vimprof="vim ~/.vimrc"
