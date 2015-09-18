@@ -118,6 +118,8 @@ export PATH="~/Documents/source-code/misc/electron:$PATH"
 export PATH="$PATH:/usr/local/go/bin"
 
 export CALIBRE_DEVELOP_FROM="~/Documents/source-code/misc/calibre/src"
+export GRADLE_USER_HOME="~/.gradle"
 
 #change default npm path
-export PATH="~/npm-global/bin:$PATH"
+export PATH=~/npm-global/bin:$PATH
+

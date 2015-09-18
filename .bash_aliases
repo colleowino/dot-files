@@ -37,7 +37,7 @@ alias dropb='cd ~/Dropbox'
 alias xtrarepo='cd ~/Documents/source-code/misc'
 alias blogs='cd ~/Documents/source-code/misc/jekyll-stuff'
 alias liveservers='cd ~/live-servers'
-alias source-code='cd ~/Documents/source-code'
+alias mycode='cd ~/Documents/source-code'
 
 #get mp4 videos
 alias ytdl='youtube-dl -f 18 --no-cache '
