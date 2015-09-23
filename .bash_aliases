@@ -32,6 +32,7 @@ alias ytdl='youtube-dl -f 18 '
 
 ## folders
 alias docs='cd ~/Documents'
+alias ytfolder='cd ~/Documents/yt_lessons'
 alias dwnl='cd ~/Downloads'
 alias dropb='cd ~/Dropbox'
 alias xtrarepo='cd ~/Documents/source-code/misc'
