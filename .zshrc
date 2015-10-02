@@ -123,3 +123,5 @@ export GRADLE_USER_HOME="~/.gradle"
 #change default npm path
 export PATH=~/npm-global/bin:$PATH
 
+# Setting a default go-path
+export GOPATH="$HOME/Documents/source-code/misc/go-stuff"
