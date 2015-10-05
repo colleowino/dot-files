@@ -40,6 +40,9 @@ alias blogs='cd ~/Documents/source-code/misc/jekyll-stuff'
 alias liveservers='cd ~/live-servers'
 alias mycode='cd ~/Documents/source-code'
 
+#serve draft posts
+alias jekylldraft='jekyll s --watch --drafts'
+
 #get mp4 videos
 alias ytdl='youtube-dl -f 18 --no-cache '
 
