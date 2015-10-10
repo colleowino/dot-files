@@ -1,4 +1,3 @@
-	" filetype plugin indent on
 	set ts=2								" tabs should have width of 2
 	set shiftwidth=2				" size of an "indent"
 	set softtabstop=2				" combination of spaces/tabs to stimulate tab width
@@ -28,7 +27,6 @@
 	set title								" let vim modify the terminal title
 
 	set timeoutlen=400
-	execute pathogen#infect()
 
 	" Automatic commands
 	if has("autocmd")
@@ -45,3 +43,7 @@
 	" insert mode: escape to normal and save
 	vnoremap <c-s> <Esc>:w<CR> 
 
+	call pathogen#infect()
+	" You probably already have these lines. Add them if not:
+	syntax on
+	filetype plugin indent on
