@@ -38,7 +38,10 @@
 		autocmd BufNewFile,Bufread *.json setfiletype json syntax=javascript
 	endif
 
-	nnoremap <c-s> :w<CR> # normal mode: save
-	inoremap <c-s> <Esc>:w<CR> # insert mode: escape to normal and save
-	vnoremap <c-s> <Esc>:w<CR> # insert mode: escape to normal and save
+	" normal mode: save
+	nnoremap <c-s> :w<CR> 
+	" insert mode: escape to normal and save
+	inoremap <c-s> <Esc>:w<CR> 
+	" insert mode: escape to normal and save
+	vnoremap <c-s> <Esc>:w<CR> 
 
