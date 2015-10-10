@@ -50,3 +50,11 @@
 		
 	" remove Ex mode 
 	nnoremap Q <nop>
+
+	" let vim reload on saving .vimrc 
+	augroup reload_vimrc " {
+		autocmd!
+				autocmd BufWritePost $MYVIMRC source $MYVIMRC
+			augroup END " }
+
+
