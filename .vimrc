@@ -47,3 +47,6 @@
 	" You probably already have these lines. Add them if not:
 	syntax on
 	filetype plugin indent on
+		
+	" remove Ex mode 
+	nnoremap Q <nop>
