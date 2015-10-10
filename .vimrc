@@ -27,7 +27,7 @@
 	set directory^=$HOME/.vim/swap/
 	set title								" let vim modify the terminal title
 
-	set timeoutlen=200
+	set timeoutlen=400
 	execute pathogen#infect()
 
 	" Automatic commands
