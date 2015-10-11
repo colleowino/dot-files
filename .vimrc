@@ -57,4 +57,6 @@
 				autocmd BufWritePost $MYVIMRC source $MYVIMRC
 			augroup END " }
 
+	" turn on spell checker for markdown
+	autocmd BufRead,BufNewFile *.md setlocal spell
 
