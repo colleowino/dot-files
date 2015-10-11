@@ -59,4 +59,5 @@
 
 	" turn on spell checker for markdown
 	autocmd BufRead,BufNewFile *.md setlocal spell
+	autocmd BufRead,BufNewFile *.txt setlocal spell
 
