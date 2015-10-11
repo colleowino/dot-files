@@ -26,7 +26,7 @@
 	set directory^=$HOME/.vim/swap/
 	set title								" let vim modify the terminal title
 
-	set timeoutlen=500
+	set timeoutlen=600
 
 	" Automatic commands
 	if has("autocmd")
