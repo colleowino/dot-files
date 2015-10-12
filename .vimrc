@@ -24,6 +24,7 @@
 	" Don't swap in my working directory
 	set directory^=$HOME/.vim/swap/
 	set nobackup
+	set nowritebackup
 	set noswapfile    " http://robots.thoughtbot.com/post/18739402579/global-gitignore#comment-458413287	
 	set title								" let vim modify the terminal title
 
