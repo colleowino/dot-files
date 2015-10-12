@@ -63,4 +63,9 @@
 	autocmd BufRead,BufNewFile *.md setlocal spell
 	" Autocomplete with dictionary words when spell check is on
 	set complete+=kspell
+	" map spell checker to F5 in insert mode
 	imap <F5> <C-o>:setlocal spell! spelllang=en_us<CR>
+
+	" Make it obvious where 80 characters is
+	set textwidth=90
+	set colorcolumn=+1
