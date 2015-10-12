@@ -63,3 +63,4 @@
 	autocmd BufRead,BufNewFile *.md setlocal spell
 	" Autocomplete with dictionary words when spell check is on
 	set complete+=kspell
+	imap <F5> <C-o>:setlocal spell! spelllang=en_us<CR>
