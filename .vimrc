@@ -19,7 +19,7 @@
 	  au InsertEnter * hi StatusLine ctermfg=235 ctermbg=2
 		au InsertLeave * hi StatusLine ctermbg=240 ctermfg=12
 	endif
-			
+	set noswapfile    " http://robots.thoughtbot.com/post/18739402579/global-gitignore#comment-458413287	
 	" use kj to leave insert mode 
 	inoremap kj <Esc>				
 	" Don't swap in my working directory
