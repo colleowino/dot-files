@@ -61,5 +61,5 @@
 
 	" turn on spell checker for markdown
 	autocmd BufRead,BufNewFile *.md setlocal spell
-	autocmd BufRead,BufNewFile *.txt setlocal spell
-
+	" Autocomplete with dictionary words when spell check is on
+	set complete+=kspell
