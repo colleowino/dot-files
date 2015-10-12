@@ -1,3 +1,5 @@
+	" leader
+	let mapleader = " "
 	set ts=2								" tabs should have width of 2
 	set shiftwidth=2				" size of an "indent"
 	set softtabstop=2				" combination of spaces/tabs to stimulate tab width
@@ -16,13 +18,13 @@
 	set wildmenu						" enable bash style tab completion
 	" highlight the status bar when in insert mode
 	if version >= 700
-	  au InsertEnter * hi StatusLine ctermfg=235 ctermbg=2
-		au InsertLeave * hi StatusLine ctermbg=240 ctermfg=12
+	  au insertenter * hi statusline ctermfg=235 ctermbg=2
+		au insertleave * hi statusline ctermbg=240 ctermfg=12
 	endif
 	" use kj to leave insert mode 
-	inoremap kj <Esc>				
-	" Don't swap in my working directory
-	set directory^=$HOME/.vim/swap/
+	inoremap kj <esc>				
+	" don't swap in my working directory
+	set directory^=$home/.vim/swap/
 	set nobackup
 	set nowritebackup
 	set noswapfile    " http://robots.thoughtbot.com/post/18739402579/global-gitignore#comment-458413287	
@@ -30,16 +32,16 @@
 
 	set timeoutlen=600
 
-	" Automatic commands
+	" automatic commands
 	if has("autocmd")
-		" Enable file type detection
+		" enable file type detection
 		filetype on
-		" Treat .json file as .js
-		autocmd BufNewFile,Bufread *.json setfiletype json syntax=javascript
+		" treat .json file as .js
+		autocmd bufnewfile,bufread *.json setfiletype json syntax=javascript
 	endif
 
 	" normal mode: save
-	nnoremap <c-s> :w<CR> 
+	nnoremap <c-s> :w<cr> 
 	" insert mode: escape to normal and save
 	inoremap <c-s> <Esc>:w<CR> 
 	" insert mode: escape to normal and save
