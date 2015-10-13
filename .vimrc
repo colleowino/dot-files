@@ -16,6 +16,8 @@
 	set cursorline					" hightlight current line
 	set laststatus=2				" always show status bar
 	set wildmenu						" enable bash style tab completion
+	set nomodeline					" avoid: Error detected while processing modelines
+
 	" highlight the status bar when in insert mode
 	if version >= 700
 	  au insertenter * hi statusline ctermfg=235 ctermbg=2
