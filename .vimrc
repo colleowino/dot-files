@@ -75,3 +75,7 @@
 	" scroll vim autocomple with j-k instead of Ctrl+n/ctrl+p
 	inoremap <expr> j ((pumvisible())?("\<C-n>"):("j"))
 	inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
+
+	"easy-motion 2 char search 
+	nmap s <Plug>(easymotion-s2)
+	nmap t <Plug>(easymotion-t2)
