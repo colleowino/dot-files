@@ -71,3 +71,7 @@
 	" Make it obvious where 80 characters is
 	set textwidth=90
 	set colorcolumn=+1
+
+	" scroll vim autocomple with j-k instead of Ctrl+n/ctrl+p
+	inoremap <expr> j ((pumvisible())?("\<C-n>"):("j"))
+	inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
