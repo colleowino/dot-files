@@ -103,8 +103,8 @@
 	" Use the same symbols as TextMate for tabstops and EOLs
 	set listchars=tab:▸\ ,eol:¬
 
-	" visual warning that 80 colum mark passed
+	" visual warning that 80 colum mark passed	
 	augroup vimrc_autocmds
 		autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#592929
-		autocmd BufEnter * match OverLength /\%75.*/
+		autocmd BufEnter * match OverLength /\%90v.*/
 	augroup END
