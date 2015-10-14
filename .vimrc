@@ -6,7 +6,7 @@
 	set ruler								" show row and column in footer
 	set autoindent					" set auto indent
 	" colorscheme monokai, gruvbox
-	colorscheme Tomorrow
+	colorscheme morning
 	set background=light
 	set number							"	enable line numbering
 	set incsearch						" highlight as i type the search keyword
