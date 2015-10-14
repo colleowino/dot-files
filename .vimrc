@@ -20,11 +20,6 @@
 	set wildmenu						" enable bash style tab completion
 	set nomodeline					" avoid: Error detected while processing modelines
 
-	" highlight the status bar when in insert mode
-	if version >= 700
-	  au insertenter * hi statusline ctermfg=235 ctermbg=2
-		au insertleave * hi statusline ctermbg=240 ctermfg=12
-	endif
 	" use kj to leave insert mode 
 	inoremap kj <esc>				
 	" don't swap in my working directory
