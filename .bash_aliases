@@ -57,3 +57,6 @@ alias aliaslist="vim ~/.bash_aliases"
 alias tmux="TERM=screen-256color-bce tmux"
 
 alias tree="tree -L 1 -C"
+
+# moving colors folder to vim 
+alias vimkolor="cp -a colors ~/.vim"
