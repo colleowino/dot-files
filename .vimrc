@@ -5,9 +5,9 @@
 	set softtabstop=2				" combination of spaces/tabs to stimulate tab width
 	set ruler								" show row and column in footer
 	set autoindent					" set auto indent
-	" colorscheme monokai
-	colorscheme gruvbox
-	set background=dark
+	" colorscheme monokai, gruvbox
+	colorscheme Tomorrow
+	set background=light
 	set number							"	enable line numbering
 	set incsearch						" highlight as i type the search keyword
 	set hlsearch						" highlight found words after search
