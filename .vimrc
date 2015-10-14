@@ -67,10 +67,6 @@
 	" map spell checker to F5 in insert mode
 	imap <F5> <C-o>:setlocal spell! spelllang=en_us<CR>
 
-	" Make it obvious where 80 characters is
-	set textwidth=90
-	set colorcolumn=+1
-
 	" scroll vim autocomple with j-k instead of Ctrl+n/ctrl+p
 	inoremap <expr> j ((pumvisible())?("\<C-n>"):("j"))
 	inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
@@ -103,6 +99,11 @@
 	" Use the same symbols as TextMate for tabstops and EOLs
 	set listchars=tab:▸\ ,eol:¬
 
+	" show line wrappings but don't automatically wrap lines
+	set	tw=90 fo=cq wm=0
+	" Make it obvious where 80 characters is
+	set textwidth=90
+	set colorcolumn=+1
 	" visual warning that 80 colum mark passed	
 	augroup vimrc_autocmds
 		autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#592929
