@@ -6,7 +6,7 @@
 	set ruler								" show row and column in footer
 	set autoindent					" set auto indent
 	" colorscheme monokai, gruvbox
-	colorscheme morning
+	colorscheme badwolf
 	set background=light
 	set number							"	enable line numbering
 	set incsearch						" highlight as i type the search keyword
@@ -102,3 +102,9 @@
 
 	" Use the same symbols as TextMate for tabstops and EOLs
 	set listchars=tab:▸\ ,eol:¬
+
+	" visual warning that 80 colum mark passed
+	augroup vimrc_autocmds
+		autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#592929
+		autocmd BufEnter * match OverLength /\%75.*/
+	augroup END
