@@ -100,7 +100,9 @@
 	set listchars=tab:▸\ ,eol:¬
 
 	" show line wrappings but don't automatically wrap lines
-	set	tw=90 fo=cq wm=0
+	set	tw=90 
+	set fo=cq 
+	set wm=0
 	" Make it obvious where 80 characters is
 	set textwidth=90
 	set colorcolumn=+1
