@@ -99,13 +99,6 @@
 	" Use the same symbols as TextMate for tabstops and EOLs
 	set listchars=tab:▸\ ,eol:¬
 
-	" show line wrappings but don't automatically wrap lines
-	set	tw=90 
-	set fo=cq 
-	set wm=0
-	" Make it obvious where 80 characters is
-	set textwidth=90
-	set colorcolumn=+1
 	" visual warning that 80 colum mark passed	
 	augroup vimrc_autocmds
 		autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#592929
