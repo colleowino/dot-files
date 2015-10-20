@@ -1,5 +1,4 @@
-	" leader
-	let mapleader = " "
+	let mapleader = " " " leader
 	set ts=2								" tabs should have width of 2
 	set shiftwidth=2				" size of an "indent"
 	set softtabstop=2				" combination of spaces/tabs to stimulate tab width
