@@ -103,3 +103,6 @@
 		autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#592929
 		autocmd BufEnter * match OverLength /\%90v.*/
 	augroup END
+
+	" using X shouldn't change the current register
+	noremap x "_x
