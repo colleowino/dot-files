@@ -60,3 +60,6 @@ alias tree="tree -L 1 -C"
 
 # moving colors folder to vim 
 alias vimkolor="cp -a colors ~/.vim"
+
+# add git submodules easily
+alias addgsub="git submodule add "
