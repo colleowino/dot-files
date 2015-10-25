@@ -63,3 +63,6 @@ alias vimkolor="cp -a colors ~/.vim"
 
 # add git submodules easily
 alias addgsub="git submodule add "
+
+# use git extras to ignore files
+alias gitnot="git ignore "
