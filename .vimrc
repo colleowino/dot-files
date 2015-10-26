@@ -18,6 +18,7 @@
 	set laststatus=2				" always show status bar
 	set wildmenu						" enable bash style tab completion
 	set nomodeline					" avoid: Error detected while processing modelines
+	set showcmd     				" show typed keys
 
 	" use kj to leave insert mode 
 	inoremap kj <esc>				
