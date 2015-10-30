@@ -128,3 +128,6 @@ export GOPATH="$HOME/Documents/source-code/misc/go-stuff"
 
 # add z directory search
 . ~/z.sh
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
