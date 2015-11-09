@@ -28,7 +28,6 @@ alias serveFolder='python -m SimpleHTTPServer'
 alias aptinst='sudo apt-get install'
 alias aptrepo='sudo add-apt-repository'
 alias aptnew='sudo apt-get update'
-alias ytdl='youtube-dl -f 18 '
 
 ## folders
 alias docs='cd ~/Documents'
@@ -44,7 +43,7 @@ alias mycode='cd ~/Documents/source-code'
 alias jekylldraft='jekyll s --watch --drafts'
 
 #get mp4 videos
-alias ytdl='youtube-dl -f 18 --no-cache '
+alias ytdl='youtube-dl -f 18 '
 
 #edit basic shell and vim profiles
 alias vimprof="vim ~/.vimrc"
