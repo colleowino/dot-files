@@ -106,7 +106,7 @@ export PATH="/usr/lib/postgresql/9.4/bin:$PATH"
 export PERL5LIB="$HOME/perl5/lib/perl5"
 export PATH="$HOME/perl5/bin:$PATH"
 
-export ANDROID_HOME="/mnt/947ED7B07ED7897E/ubuntu_files/sdk"
+export ANDROID_HOME="/mnt/win_8/ubuntu_files/sdk"
 
 # enable control-s and control-q
 stty start undef
