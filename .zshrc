@@ -131,3 +131,6 @@ export GOPATH="$HOME/Documents/source-code/misc/go-stuff"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+### Use default adb
+export PATH="/mnt/win_8/ubuntu_files/sdk/platform-tools:$PATH"
