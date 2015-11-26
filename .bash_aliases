@@ -44,6 +44,8 @@ alias jekylldraft='jekyll s --watch --drafts'
 
 #get mp4 videos
 alias ytdl='youtube-dl -f 18 '
+alias ytupdate='sudo pip install --upgrade youtube-dl'
+
 
 #edit basic shell and vim profiles
 alias vimprof="vim ~/.vimrc"
