@@ -38,6 +38,7 @@ alias xtrarepo='cd ~/Documents/source-code/misc'
 alias blogs='cd ~/Documents/source-code/misc/jekyll-stuff'
 alias liveservers='cd ~/live-servers'
 alias mycode='cd ~/Documents/source-code'
+alias thinks='cd /mnt/depot/Think_tank'
 
 #serve draft posts
 alias jekylldraft='jekyll s --watch --drafts'
