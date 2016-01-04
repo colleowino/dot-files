@@ -69,3 +69,6 @@ alias addgsub="git submodule add "
 
 # use git extras to ignore files
 alias gitnot="git ignore "
+
+# cmake call
+alias cmaker="cmake .. -DCMAKE_INSTALL_PREFIX=/usr "
