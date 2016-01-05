@@ -72,3 +72,6 @@ alias gitnot="git ignore "
 
 # cmake call
 alias cmaker="cmake .. -DCMAKE_INSTALL_PREFIX=/usr "
+
+# rescue genymotion
+alias savegeny="sudo apt-get install virtualbox-dkms"
