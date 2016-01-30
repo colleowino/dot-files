@@ -20,6 +20,8 @@
 	set nomodeline					" avoid: Error detected while processing modelines
 	set showcmd     				" show typed keys
 
+	set colorcolumn=90			" have a right column barrier
+
 	" use kj to leave insert mode 
 	inoremap kj <esc>				
 	" don't swap in my working directory
