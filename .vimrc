@@ -20,8 +20,6 @@
 	set nomodeline					" avoid: Error detected while processing modelines
 	set showcmd     				" show typed keys
 
-	set colorcolumn=90			" have a right column barrier
-
 	" use kj to leave insert mode 
 	inoremap kj <esc>				
 	" don't swap in my working directory
@@ -109,3 +107,19 @@
 
 	" using X shouldn't change the current register
 	noremap x "_x
+
+	" toggle colored right border after <size> chars
+	set colorcolumn=90
+	let s:color_column_old = 0
+
+	function! s:ToggleColorColumn()
+			if s:color_column_old == 0
+					let s:color_column_old = &colorcolumn
+					windo let &colorcolumn = 0
+			else
+					windo let &colorcolumn=s:color_column_old
+					let s:color_column_old = 0
+			endif
+	endfunction
+
+	nnoremap <Leader>8 :call <SID>ToggleColorColumn()<cr>
