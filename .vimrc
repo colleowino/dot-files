@@ -123,3 +123,8 @@
 	endfunction
 
 	nnoremap <Leader>8 :call <SID>ToggleColorColumn()<cr>
+	
+	
+	" paste from global buffer using <leader>9
+	nnoremap <Leader>9 "+p
+
