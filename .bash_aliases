@@ -36,7 +36,6 @@ alias dwnl='cd ~/Downloads'
 alias dropb='cd ~/Dropbox'
 alias xtrarepo='cd ~/Documents/source-code/misc'
 alias blogs='cd ~/Documents/source-code/misc/jekyll-stuff'
-alias liveservers='cd ~/live-servers'
 alias mycode='cd ~/Documents/source-code'
 alias thinks='cd /mnt/depot/Think_tank'
 
@@ -47,7 +46,6 @@ alias jekylldraft='jekyll s --watch --drafts'
 alias ytdl='youtube-dl -f 18 '
 alias ytaudio='youtube-dl -f 140 '
 alias ytupdate='sudo pip install --upgrade youtube-dl'
-
 
 #edit basic shell and vim profiles
 alias vimprof="vim ~/.vimrc"
@@ -75,3 +73,4 @@ alias cmaker="cmake .. -DCMAKE_INSTALL_PREFIX=/usr "
 
 # rescue genymotion
 alias savegeny="sudo apt-get install virtualbox-dkms"
+
