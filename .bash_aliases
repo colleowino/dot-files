@@ -39,7 +39,7 @@ alias blogs='cd ~/Documents/source-code/misc/jekyll-stuff'
 alias mycode='cd ~/Documents/source-code'
 alias thinks='cd /mnt/depot/Think_tank'
 # vim bundles folder
-alias vimbundles='cd cd ~/.vim/bundle'
+alias vimbundles='cd ~/.vim/bundle'
 
 #serve draft posts
 alias jekylldraft='jekyll s --watch --drafts'
