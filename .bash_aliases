@@ -17,6 +17,8 @@ alias gd='git diff'
 alias repoget='git clone '
 alias gk='gitk --all&'
 alias gx='gitx --all'
+# add git submodules easily
+alias addgsub="git submodule add "
 
 ## don't like using rake
 alias koans='ruby path_to_enlightenment.rb'
@@ -63,9 +65,6 @@ alias tree="tree -L 1 -C"
 
 # moving colors folder to vim 
 alias vimkolor="cp -a colors ~/.vim"
-
-# add git submodules easily
-alias addgsub="git submodule add "
 
 # use git extras to ignore files
 alias gitnot="git ignore "
