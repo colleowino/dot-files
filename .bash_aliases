@@ -72,6 +72,9 @@ alias gitnot="git ignore "
 # cmake call
 alias cmaker="cmake .. -DCMAKE_INSTALL_PREFIX=/usr "
 
+# better lisp shortcut
+alias lisp="clisp "
+
 # rescue genymotion
 alias savegeny="sudo apt-get install virtualbox-dkms"
 
