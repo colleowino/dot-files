@@ -52,10 +52,11 @@ alias ytaudio='youtube-dl -f 140 '
 alias ytupdate='sudo pip install --upgrade youtube-dl'
 
 #edit basic shell and vim profiles
-alias vimprof="vim ~/.vimrc"
 alias prof="vim ~/.zshrc"
+alias vimprof="vim ~/.vimrc"
 alias tmuxprof="vim ~/.tmux.conf"
 alias bashprof="vim ~/.bashrc"
+alias gitprof="vim ~/.gitconfig"
 alias aka="vim ~/.bash_aliases"
 
 #use same oh-my-zsh theme in tmux
