@@ -17,8 +17,9 @@ alias gd='git diff'
 alias repoget='git clone '
 alias gk='gitk --all&'
 alias gx='gitx --all'
-# add git submodules easily
+# git submodules 
 alias addgsub="git submodule add "
+alias gitmods="vim .gitmodules "
 
 ## don't like using rake
 alias koans='ruby path_to_enlightenment.rb'
