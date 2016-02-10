@@ -64,3 +64,6 @@
 [submodule ".tmux/plugins/tpm"]
 	path = .tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm.git
+[submodule ".vim/bundle/desertEx"]
+	path = .vim/bundle/desertEx
+	url = https://github.com/mbbill/desertEx.git
