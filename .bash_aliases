@@ -18,7 +18,7 @@ alias repoget='git clone '
 alias gk='gitk --all&'
 alias gx='gitx --all'
 # git submodules 
-alias addgsub="git submodule add "
+alias gitnewmod="git submodule add "
 alias gitmods="vim .gitmodules "
 
 ## don't like using rake
