@@ -20,6 +20,7 @@ alias gx='gitx --all'
 # git submodules 
 alias gitnewmod="git submodule add "
 alias gitmods="vim .gitmodules "
+alias gitmodupdate="git submodule update "
 
 ## don't like using rake
 alias koans='ruby path_to_enlightenment.rb'
