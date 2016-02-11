@@ -128,3 +128,6 @@
 	" paste from global buffer using <leader>9
 	nnoremap <Leader>9 "+p
 
+	" toggle showing invisible chars with <leader> q
+	nnoremap <leader>q :set list!<CR>
+
