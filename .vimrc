@@ -127,9 +127,10 @@
 	" paste from global buffer using <leader>9
 	nnoremap <Leader>9 "+p
 
-
 	set backspace=indent,eol,start
 
 	" notify about external file changes when saving 
 	set autoread
+	" then update contents <leader>q 
+	nmap <leader>Q :e! <CR>
 
