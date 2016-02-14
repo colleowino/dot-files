@@ -93,7 +93,7 @@
 
 	let g:EasyMotion_startofline = 0 " keep cursor column when JK motion
 
-" Shortcut to rapidly toggle `set list`
+	" toggle showing invisible chars with <leader> q
 	nmap <leader>L :set list!<CR>
 
 	" Use the same symbols as TextMate for tabstops and EOLs
@@ -127,8 +127,6 @@
 	" paste from global buffer using <leader>9
 	nnoremap <Leader>9 "+p
 
-	" toggle showing invisible chars with <leader> q
-	nnoremap <leader>q :set list!<CR>
 
 	set backspace=indent,eol,start
 
