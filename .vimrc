@@ -132,3 +132,6 @@
 
 	set backspace=indent,eol,start
 
+	" notify about external file changes when saving 
+	set autoread
+
