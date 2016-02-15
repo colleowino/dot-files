@@ -95,9 +95,6 @@ export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 ### added by the heroku toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
-#### mongodb
-export PATH="$HOME/live-servers/mongodb/bin:$PATH"
-
 #postgres install
 export PATH="/usr/lib/postgresql/9.4/bin:$PATH"
 
