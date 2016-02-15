@@ -132,4 +132,4 @@ export PATH="/mnt/win_8/ubuntu_files/sdk/platform-tools:$PATH"
 export ANDROID_HOME="/mnt/win_8/ubuntu_files/sdk"
 
 # prefer xterm
-export TERM=screen-256color
+export TERM=xterm-256color
