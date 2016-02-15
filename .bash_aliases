@@ -20,7 +20,8 @@ alias gx='gitx --all'
 # git submodules 
 alias gitnewmod="git submodule add "
 alias gitmods="vim .gitmodules "
-alias gitmodupdate="git submodule update "
+alias gitmodcurrent="git submodule update " # this pulls the saved state
+alias gitmodupdate="git submodule foreach git pull origin master"
 
 ## don't like using rake
 alias koans='ruby path_to_enlightenment.rb'
