@@ -63,9 +63,6 @@ alias bashprof="vim ~/.bashrc"
 alias gitprof="vim ~/.gitconfig"
 alias aka="vim ~/.bash_aliases"
 
-#use same oh-my-zsh theme in tmux
-alias tmux="TERM=screen-256color-bce tmux"
-
 alias tree="tree -L 1 -C"
 
 # moving colors folder to vim 
