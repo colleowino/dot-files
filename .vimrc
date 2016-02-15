@@ -135,3 +135,7 @@
 	" then update contents <leader>q 
 	nmap <leader>Q :e! <CR>
 
+	if !has('gui_running')
+		set t_Co=256
+	endif
+
