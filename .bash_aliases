@@ -81,3 +81,7 @@ alias lisp="clisp "
 # rescue genymotion
 alias savegeny="sudo apt-get install virtualbox-dkms"
 
+# initial setup installer from .myapts file
+alias gamebegin="cat .myapts | sudo apt-get install "
+
+
