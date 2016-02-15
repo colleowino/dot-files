@@ -82,6 +82,6 @@ alias lisp="clisp "
 alias savegeny="sudo apt-get install virtualbox-dkms"
 
 # initial setup installer from .myapts file
-alias gamebegin="cat .myapts | sudo apt-get install "
+alias gamebegin="grep -vE "^#" .myapts | sudo apt-get install "
 
 
