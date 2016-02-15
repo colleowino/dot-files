@@ -140,5 +140,5 @@
 	endif
 
 	let g:lightline = {
-				\ 'colorscheme': 'solarized_dark',
+				\ 'colorscheme': 'PaperColor',
 				\ }
