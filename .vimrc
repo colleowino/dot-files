@@ -27,7 +27,8 @@
 	syntax on
 	filetype plugin indent on
 
-	call pathogen#infect()
+	call pathogen#infect()							" init pathogen
+	nnoremap Q <nop>										" removed Ex mode
 
 	" use kj to leave insert mode 
 	inoremap kj <esc>				
@@ -39,8 +40,6 @@
 		" treat .json file as .js
 		autocmd bufnewfile,bufread *.json setfiletype json syntax=javascript
 	endif
-		
-	nnoremap Q <nop>						" removed Ex mode
 
 	" let vim reload on saving .vimrc 
 	augroup reload_vimrc " {
@@ -57,31 +56,6 @@
 
 	" toggle showing invisible chars with <leader> q
 	nmap <leader>L :set list!<CR>
-
-	" DISABLED: visual warning that 80 colum mark passed	
-	" augroup vimrc_autocmds
-	" 	autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#592929
-	" 	autocmd BufEnter * match OverLength /\%90v.*/
-	" augroup END
-
-	" using X shouldn't change the current register
-	noremap x "_x
-
-	" toggle colored right border after <size> chars
-	set colorcolumn=90
-	let s:color_column_old = 0
-
-	function! s:ToggleColorColumn()
-			if s:color_column_old == 0
-					let s:color_column_old = &colorcolumn
-					windo let &colorcolumn = 0
-			else
-					windo let &colorcolumn=s:color_column_old
-					let s:color_column_old = 0
-			endif
-	endfunction
-
-	nnoremap <Leader>8 :call <SID>ToggleColorColumn()<cr>
 	
 	" paste from global buffer using <leader>9
 	nnoremap <Leader>9 "+p
@@ -154,3 +128,31 @@
 	map <Leader>k <Plug>(easymotion-k)
 	map <Leader>h <Plug>(easymotion-linebackward)
 
+	" ---------------------------------------------
+	" Word wrapping
+	" ---------------------------------------------
+
+	" DISABLED: visual warning that 80 colum mark passed	
+	" augroup vimrc_autocmds
+	" 	autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#592929
+	" 	autocmd BufEnter * match OverLength /\%90v.*/
+	" augroup END
+
+	" using X shouldn't change the current register
+	noremap x "_x
+
+	" toggle colored right border after <size> chars
+	set colorcolumn=90
+	let s:color_column_old = 0
+
+	function! s:ToggleColorColumn()
+			if s:color_column_old == 0
+					let s:color_column_old = &colorcolumn
+					windo let &colorcolumn = 0
+			else
+					windo let &colorcolumn=s:color_column_old
+					let s:color_column_old = 0
+			endif
+	endfunction
+
+	nnoremap <Leader>8 :call <SID>ToggleColorColumn()<cr>
