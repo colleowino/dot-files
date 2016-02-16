@@ -79,3 +79,6 @@
 [submodule ".vim/bundle/vim"]
 	path = .vim/bundle/vim
 	url = https://github.com/Konstruktionist/vim.git
+[submodule ".vim/bundle/vim-json"]
+	path = .vim/bundle/vim-json
+	url = https://github.com/elzr/vim-json.git
