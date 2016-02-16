@@ -77,8 +77,8 @@
 	endif
 
 	" set color and background
-	set background=light
-	colo cake
+	set background=light 
+	colo bclear
 
 	let g:lightline = {
 				\ 'colorscheme': 'wombat',
