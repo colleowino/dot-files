@@ -1,16 +1,12 @@
-	let mapleader = " " " leader
+	let mapleader = " "			" leader
 	set ts=2								" tabs should have width of 2
 	set shiftwidth=2				" size of an "indent"
 	set softtabstop=2				" combination of spaces/tabs to stimulate tab width
 	set ruler								" show row and column in footer
 	set autoindent					" set auto indent
-	" colorscheme monokai, gruvbox
-	colorscheme gruvbox
-	set background=dark
 	set number							"	enable line numbering
 	set incsearch						" highlight as i type the search keyword
 	set hlsearch						" highlight found words after search
-	
 	set lazyredraw					" improve screen update speed
 	set nocompatible				" no neet to be compatible with old vi
 	set ignorecase					" case insensitive search
@@ -135,13 +131,13 @@
 	" then update contents <leader>q 
 	nmap <leader>Q :e! <CR>
 
+	" ---------------------------------------------
+	" Themes and colors 
+	" ---------------------------------------------
+	
 	if !has('gui_running')
 		set t_Co=256
 	endif
-
-	let g:lightline = {
-				\ 'colorscheme': 'PaperColor',
-				\ }
 
 	if &term =~ '256color'
 		" disable Background Color Erase (BCE) so that color schemes
@@ -149,3 +145,12 @@
 		" see also http://snk.tuxfamily.org/log/vim-256color-bce.html
 		set t_ut=
 	endif
+
+	" set color and background
+	set background=light
+	colo cake
+
+	let g:lightline = {
+				\ 'colorscheme': 'wombat',
+				\ }
+
