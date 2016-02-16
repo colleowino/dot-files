@@ -84,4 +84,6 @@ alias savegeny="sudo apt-get install virtualbox-dkms"
 # initial setup installer from .myapts file
 alias gamebegin="grep -vE "^#" .myapts | sudo apt-get install "
 
+# redirect to the newer grep
+alias ack="ack-grep "
 
