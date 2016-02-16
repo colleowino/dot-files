@@ -15,14 +15,14 @@
 	set wildmenu						" enable bash style tab completion
 	set nomodeline					" avoid: Error detected while processing modelines
 	set showcmd     				" show typed keys
-
-	" use kj to leave insert mode 
-	inoremap kj <esc>				
-	" don't swap in my working directory
 	set directory^=$home/.vim/swap/
 	set nobackup
 	set nowritebackup
 	set noswapfile    " http://robots.thoughtbot.com/post/18739402579/global-gitignore#comment-458413287	
+
+	" use kj to leave insert mode 
+	inoremap kj <esc>				
+	" don't swap in my working directory
 	set title								" let vim modify the terminal title
 
 	" make it easier to capture kj command 
@@ -36,12 +36,6 @@
 		autocmd bufnewfile,bufread *.json setfiletype json syntax=javascript
 	endif
 
-	" normal mode: save
-	nnoremap <c-s> :w<cr> 
-	" insert mode: escape to normal and save
-	inoremap <c-s> <Esc>:w<CR> 
-	" insert mode: escape to normal and save
-	vnoremap <c-s> <Esc>:w<CR> 
 
 	call pathogen#infect()
 	" You probably already have these lines. Add them if not:
@@ -126,11 +120,6 @@
 
 	set backspace=indent,eol,start
 
-	" notify about external file changes when saving 
-	set autoread
-	" then update contents <leader>q 
-	nmap <leader>Q :e! <CR>
-
 	" ---------------------------------------------
 	" Themes and colors 
 	" ---------------------------------------------
@@ -153,4 +142,20 @@
 	let g:lightline = {
 				\ 'colorscheme': 'wombat',
 				\ }
+
+	" ---------------------------------------------
+	" File: Opening closing and updating
+	" ---------------------------------------------
+	
+	" normal mode: save
+	nnoremap <c-s> :w<cr> 
+	" insert mode: escape to normal and save
+	inoremap <c-s> <Esc>:w<CR> 
+	" insert mode: escape to normal and save
+	vnoremap <c-s> <Esc>:w<CR> 
+
+	" notify about external file changes when saving 
+	set autoread
+	" then update contents <leader>q 
+	nmap <leader>Q :e! <CR>
 
