@@ -1,4 +1,3 @@
-	let mapleader = " "			" leader
 	set timeoutlen=600			" capture kj as a single command 
 	set ts=2								" tabs should have width of 2
 	set shiftwidth=2				" size of an "indent"
@@ -57,8 +56,7 @@
 	" toggle showing invisible chars with <leader> q
 	nmap <leader>L :set list!<CR>
 	
-	" paste from global buffer using <leader>9
-	nnoremap <Leader>9 "+p
+	nnoremap <Leader>9 "+p					" paste from global buffer using <leader>9
 
 
 	" ---------------------------------------------

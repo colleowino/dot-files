@@ -88,3 +88,6 @@
 [submodule ".vim/bundle/tabular"]
 	path = .vim/bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule ".vim/bundle/enigma.vim"]
+	path = .vim/bundle/enigma.vim
+	url = https://github.com/DeepAnchor/enigma.vim.git
