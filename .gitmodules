@@ -94,3 +94,6 @@
 [submodule ".vim/bundle/iceberg.vim"]
 	path = .vim/bundle/iceberg.vim
 	url = https://github.com/cocopon/iceberg.vim.git
+[submodule ".vim/bundle/vim-colors-solarized"]
+	path = .vim/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
