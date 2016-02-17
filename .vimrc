@@ -178,4 +178,6 @@
 		autocmd bufnewfile,bufread *.json setfiletype json syntax=javascript
 		" turn on spell checker for markdown
 		autocmd BufRead,BufNewFile *.md setlocal spell
+		" activate javacomplete2
+		autocmd FileType java setlocal omnifunc=javacomplete#Complete
 	endif
