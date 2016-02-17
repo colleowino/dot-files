@@ -97,3 +97,6 @@
 [submodule ".vim/bundle/vim-colors-solarized"]
 	path = .vim/bundle/vim-colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule ".vim/bundle/vim-bookmarks"]
+	path = .vim/bundle/vim-bookmarks
+	url = https://github.com/MattesGroeger/vim-bookmarks

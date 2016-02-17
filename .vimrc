@@ -93,6 +93,7 @@
 	" ---------------------------------------------
 
 	let g:EasyMotion_startofline = 0					" keep cursor column when JK motion
+	" map <Leader>gE <Plug>(easymotion-prefix)
 
 	" scroll vim autocomple with j-k instead of Ctrl+n/ctrl+p
 	inoremap <expr> j ((pumvisible())?("\<C-n>"):("j"))
@@ -181,3 +182,16 @@
 		" activate javacomplete2
 		autocmd FileType java setlocal omnifunc=javacomplete#Complete
 	endif
+
+	" ---------------------------------------------
+	" vim bookmarks
+	" ---------------------------------------------
+	" map <Leader><leader> <Plug>BookmarkToggle
+	" map <leader>i <plug>bookmarkannotate
+	" nmap <leader>a <plug>bookmarkshowall
+	" nmap <Leader>j <Plug>BookmarkNext
+	" nmap <Leader>k <Plug>BookmarkPrev
+	" nmap <Leader>c <Plug>BookmarkClear
+	" nmap <Leader>x <Plug>BookmarkClearAll
+	" nmap <Leader>kk <Plug>BookmarkMoveUp
+	" nmap <Leader>jj <Plug>BookmarkMoveDown
