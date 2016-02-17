@@ -33,32 +33,23 @@
 	" use kj to leave insert mode 
 	inoremap kj <esc>				
 
-	" automatic commands
-	if has("autocmd")
-		" enable file type detection
-		filetype on
-		" treat .json file as .js
-		autocmd bufnewfile,bufread *.json setfiletype json syntax=javascript
-	endif
-
 	" let vim reload on saving .vimrc 
 	augroup reload_vimrc " {
 		autocmd!
-				autocmd BufWritePost $MYVIMRC source $MYVIMRC
-			augroup END " }
+				autocmd bufwritepost $myvimrc source $myvimrc
+			augroup end " }
 
-	" turn on spell checker for markdown
-	autocmd BufRead,BufNewFile *.md setlocal spell
 	" Autocomplete with dictionary words when spell check is on
 	set complete+=kspell
+
 	" map spell checker to F5 in insert mode
 	imap <F5> <C-o>:setlocal spell! spelllang=en_us<CR>
 
 	" toggle showing invisible chars with <leader> q
 	nmap <leader>L :set list!<CR>
 	
-	nnoremap <Leader>9 "+p					" paste from global buffer using <leader>9
-
+	" paste from global buffer using <leader>9
+	nnoremap <Leader>9 "+p					
 
 	" ---------------------------------------------
 	" Themes and colors 
@@ -130,7 +121,7 @@
 	" ---------------------------------------------
 	" Word wrapping
 	" ---------------------------------------------
-
+				
 	" DISABLED: visual warning that 80 colum mark passed	
 	" augroup vimrc_autocmds
 	" 	autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#592929
@@ -175,3 +166,16 @@
 	" nnoremap <space>go :Git checkout<Space>
 	" nnoremap <space>gps :Dispatch! git push<CR>
 	" nnoremap <space>gpl :Dispatch! git pull<CR>
+	
+	" ---------------------------------------------
+	" Automatic commands
+	" ---------------------------------------------
+
+	if has("autocmd")
+		" enable file type detection
+		filetype on
+		" treat .json file as .js
+		autocmd bufnewfile,bufread *.json setfiletype json syntax=javascript
+		" turn on spell checker for markdown
+		autocmd BufRead,BufNewFile *.md setlocal spell
+	endif
