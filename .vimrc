@@ -1,3 +1,4 @@
+	let mapleader = " "			" leader
 	set timeoutlen=600			" capture kj as a single command 
 	set ts=2								" tabs should have width of 2
 	set shiftwidth=2				" size of an "indent"
