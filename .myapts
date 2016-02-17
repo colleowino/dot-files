@@ -1,5 +1,13 @@
 # developer tools
 vim-gnome
+# use silver searcher instead
 ack-grep
 
 # basic stuff 
+
+# better build some from source 
+
+silversearcher-ag
+# https://github.com/ggreer/the_silver_searcher.git
+# apt-get install -y automake pkg-config libpcre3-dev zlib1g-dev liblzma-dev
+
