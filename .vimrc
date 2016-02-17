@@ -39,6 +39,9 @@
 				autocmd bufwritepost $myvimrc source $myvimrc
 			augroup end " }
 
+	" run current ruby script 
+	map <leader>r :!ruby %<cr>
+	
 	" Autocomplete with dictionary words when spell check is on
 	set complete+=kspell
 
