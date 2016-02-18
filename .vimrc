@@ -8,7 +8,7 @@
 	set number							"	enable line numbering
 	set incsearch						" highlight as i type the search keyword
 	set hlsearch						" highlight found words after search
-	set lazyredraw					" improve screen update speed
+	uet lazyredraw					" improve screen update speed
 	set nocompatible				" no neet to be compatible with old vi
 	set ignorecase					" case insensitive search
 	set cursorline					" hightlight current line
@@ -49,11 +49,19 @@
 	Plug 'mtth/scratch.vim'
 	Plug 'junegunn/goyo.vim'
 
+	" search tools
+	" -------------------
 	Plug 'rking/ag.vim'
 	Plug 'Chun-Yang/vim-action-ag'
 	Plug 'wincent/command-t'
 	Plug 'kien/ctrlp.vim'
 	
+	" autocompletion
+	" -------------------
+	Plug 'mattn/emmet-vim'
+	Plug 'tpope/vim-endwise'
+	Plug 'Valloric/YouCompleteMe'
+
 	" refactoring tools
 	" -------------------
 	Plug 'pgdouyon/vim-evanesco'				"removes highlight on cursor move
@@ -65,17 +73,12 @@
 	" Plug 'tpope/vim-commentary' #removed in favor of 
 	Plug 'scrooloose/nerdcommenter'	
 
-	" autocompletion
-	" -------------------
-	Plug 'mattn/emmet-vim'
-	Plug 'tpope/vim-endwise'
-	Plug 'Valloric/YouCompleteMe'
-
-	" syntax highlighters
+	" syntax
 	" -------------------
 	Plug 'elzr/vim-json'
 	Plug 'jelera/vim-javascript-syntax'
 	Plug 'tpope/vim-rails'
+	Plug 'bilalq/ruby-matchit'
 
 	Plug 'marijnh/tern_for_vim'
 	Plug 'scrooloose/syntastic'
