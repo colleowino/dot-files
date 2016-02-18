@@ -39,6 +39,7 @@
 	Plug 'easymotion/vim-easymotion'
 	Plug 'MattesGroeger/vim-bookmarks'
 	Plug 'pgdouyon/vim-evanesco' 
+	Plug 'nathanaelkane/vim-indent-guides'
 	Plug 'tpope/vim-unimpaired'
 	Plug 'tpope/vim-commentary'
 	Plug 'tpope/vim-endwise'
