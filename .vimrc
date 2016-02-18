@@ -44,6 +44,7 @@
 	Plug 'tpope/vim-fugitive'
 	Plug 'itchyny/lightline.vim'
 	Plug 'majutsushi/tagbar'
+	Plug 'christoomey/vim-tmux-navigator'
 
 	Plug 'rking/ag.vim'
 	Plug 'Chun-Yang/vim-action-ag'
@@ -123,12 +124,6 @@
 	
 	" paste from global buffer using <leader>9
 	nnoremap <Leader>9 "+p					
-
-	" easy window navigation
-	map <leader>ol <C-w>l
-	map <leader>oh <C-w>h
-	map <leader>oj <C-w>j
-	map <leader>ok <C-w>k
 
 	" ---------------------------------------------
 	" Themes and colors 
