@@ -28,11 +28,12 @@
 	filetype plugin indent on
 
 	" ---------------------------------------------
-	" vim-plug section
+	" vim-plug section 'use single quotes'
 	" ---------------------------------------------
-	call plug#begin('~/.vim/plugged')
+	call plug#begin('~/.vim/plugged') 
 
 	Plug 'junegunn/vim-easy-align'
+	Plug 'machakann/vim-swap'
 
 	" Add plugins to &runtimepath
 	call plug#end()
@@ -85,7 +86,7 @@
 
 	" set color and background
 	set background=light 
-	colo bclear
+	colo gotham256
 
 	let g:lightline = {
 				\ 'colorscheme': 'wombat',

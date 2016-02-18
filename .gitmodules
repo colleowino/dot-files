@@ -3,9 +3,6 @@
 	path = .oh-my-zsh/plugins/zsh-syntax-highlighting
 	url = http://github.com/zsh-users/zsh-syntax-highlighting
 # vim addons
-[submodule ".vim/bundle/vim-swap"]
-	path = .vim/bundle/vim-swap
-	url = https://github.com/machakann/vim-swap.git
 [submodule ".vim/bundle/syntastic"]
 	path = .vim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
