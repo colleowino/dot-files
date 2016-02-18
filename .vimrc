@@ -45,6 +45,7 @@
 	Plug 'itchyny/lightline.vim'
 	Plug 'majutsushi/tagbar'
 	Plug 'christoomey/vim-tmux-navigator'
+	Plug 'mtth/scratch.vim'
 
 	Plug 'rking/ag.vim'
 	Plug 'Chun-Yang/vim-action-ag'
