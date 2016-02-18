@@ -1,11 +1,17 @@
-# developer tools
-vim-gnome
-vlc
-# use silver searcher instead
-ack-grep
 # basic stuff 
+ubuntu-restricted-extras vlc
+gdebi variety tor-browser 
+# developer tools
+# krita gimp inkscape blender 
+git-core git-extras zsh tmux vim-gnome ack-grep tree
+exuberant-ctags
+libusb-dev cmake
+haskell-platform r-base clisp golang
 # better build some from source 
+#
+# in ordert to build vim ruby
+ruby-dev
+# use silver searcher instead
 silversearcher-ag
 # https://github.com/ggreer/the_silver_searcher.git
-# apt-get install -y automake pkg-config libpcre3-dev zlib1g-dev liblzma-dev
-exuberant-ctags
+# automake pkg-config libpcre3-dev zlib1g-dev liblzma-dev
