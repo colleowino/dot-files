@@ -79,6 +79,7 @@
 	" -------------------
 	Plug 'elzr/vim-json'
 	Plug 'jelera/vim-javascript-syntax'
+	Plug 'pangloss/vim-javascript'
 	Plug 'tpope/vim-rails'
 	Plug 'bilalq/ruby-matchit'
 
@@ -161,7 +162,7 @@
 
 	" set color and background
 	set background=light 
-	colo bclear
+	colo hybrid_material
 
 	let g:lightline = {
 				\ 'colorscheme': 'wombat',
