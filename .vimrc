@@ -82,6 +82,8 @@
 	Plug 'pangloss/vim-javascript'
 	Plug 'tpope/vim-rails'
 	Plug 'bilalq/ruby-matchit'
+	" one to rule them all 
+	Plug 'sheerun/vim-polyglot'
 
 	Plug 'marijnh/tern_for_vim'
 	Plug 'scrooloose/syntastic'
