@@ -27,7 +27,21 @@
 	syntax on
 	filetype plugin indent on
 
+	" ---------------------------------------------
+	" vim-plug section
+	" ---------------------------------------------
+	call plug#begin('~/.vim/plugged')
+
+	Plug 'junegunn/vim-easy-align'
+
+	" Add plugins to &runtimepath
+	call plug#end()
+
+	" ---------------------------------------------
+	" Basic mappings
+	" ---------------------------------------------
 	call pathogen#infect()							" init pathogen
+
 	nnoremap Q <nop>										" removed Ex mode
 
 	" use kj to leave insert mode 
