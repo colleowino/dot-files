@@ -61,6 +61,8 @@
 	Plug 'mattn/emmet-vim'
 	Plug 'tpope/vim-endwise'
 	Plug 'Valloric/YouCompleteMe'
+	Plug 'SirVer/ultisnips'
+	Plug 'honza/vim-snippets'
 
 	" refactoring tools
 	" -------------------
