@@ -13,7 +13,7 @@ echo "==> Here we go..."
 cd ~
 
 echo "  > Updating all git submodules..."
-git submodule init &> /dev/null
-git submodule update &> /dev/null
-
+# git submodule init &> /dev/null
+# git submodule update &> /dev/null
+sudo apt-get install $(grep -vE "^#" .myapts )
 echo "==> Done with setup."
