@@ -15,5 +15,6 @@ cd ~
 echo "  > Updating all git submodules..."
 # git submodule init &> /dev/null
 # git submodule update &> /dev/null
-sudo apt-get install $(grep -vE "^#" .myapts )
+#sudo apt-get install $(grep -vE "^#" .myapts )
+$(grep -vE "^#" myapts )
 echo "==> Done with setup."

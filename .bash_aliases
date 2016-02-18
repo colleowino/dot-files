@@ -82,8 +82,9 @@ alias lisp="clisp "
 # rescue genymotion
 alias savegeny="sudo apt-get install virtualbox-dkms"
 
-# initial setup installer from .myapts file
-alias gamebegin="grep -vE "^#" .myapts | sudo apt-get install "
+# initial setup installer from myapts file
+#alias gamebegin=" $( grep -vE "^#" myapts | sudo apt-get install ) "
+alias gamebegin=" grep -vE "^#" myapts | xargs sudo apt-get -y install "
 
 # redirect to the newer grep
 alias ack="ack-grep "
