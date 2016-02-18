@@ -73,6 +73,7 @@
 	Plug 'jelera/vim-javascript-syntax'
 	Plug 'tpope/vim-rails'
 
+	Plug 'marijnh/tern_for_vim'
 	Plug 'scrooloose/syntastic'
 
 	"colors
