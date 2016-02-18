@@ -134,13 +134,10 @@
 	" ---------------------------------------------
 	" copy paste
 	" ---------------------------------------------
-	
-	" paste from global buffer using <leader>9
-	nnoremap <Leader>9 "+p					
 
-	" use * register 4:copy line and 5: paste line
-	nnoremap <Leader>4 "*D
-	nnoremap <Leader>5 "*p					
+	" use global + register 4:copy line and 5: paste line
+	nnoremap <Leader>4 "+Y
+	nnoremap <Leader>5 "+p					
 
 	" ---------------------------------------------
 	" Themes and colors 
