@@ -32,8 +32,57 @@
 	" ---------------------------------------------
 	call plug#begin('~/.vim/plugged') 
 
-	Plug 'junegunn/vim-easy-align'
+	" disable word highlight with cursor movement
+
+	Plug 'scrooloose/syntastic'
+	Plug 'junegunn/limelight.vim'
+	Plug 'easymotion/vim-easymotion'
+	Plug 'MattesGroeger/vim-bookmarks'
+	Plug 'pgdouyon/vim-evanesco' 
+	Plug 'tpope/vim-unimpaired'
+	Plug 'tpope/vim-commentary'
+	Plug 'tpope/vim-endwise'
+
+	Plug 'scrooloose/nerdtree'
+	Plug 'tpope/vim-fugitive'
+	Plug 'itchyny/lightline.vim'
+
+	Plug 'rking/ag.vim'
+	Plug 'Chun-Yang/vim-action-ag'
+	Plug 'wincent/command-t'
+	Plug 'kien/ctrlp.vim'
+	
+	" refactoring tools
+	" -------------------
+	Plug 'terryma/vim-multiple-cursors'
 	Plug 'machakann/vim-swap'
+	Plug 'tpope/vim-surround'
+	Plug 'junegunn/vim-easy-align'
+	Plug 'godlygeek/tabular'
+
+	" autocompletion
+	" -------------------
+	Plug 'mattn/emmet-vim'
+	Plug 'Valloric/YouCompleteMe'
+
+	" syntax highlighters
+	" -------------------
+	Plug 'elzr/vim-json'
+	Plug 'jelera/vim-javascript-syntax'
+	Plug 'tpope/vim-rails'
+
+	"colors
+	" -------------------
+	" convert gvim to vim colors
+	Plug 'vim-scripts/CSApprox'
+	Plug 'ap/vim-css-color'
+	Plug 'DeepAnchor/enigma.vim'
+	Plug 'chriskempson/base16-vim'
+	Plug 'mbbill/desertEx'
+	Plug 'w0ng/vim-hybrid'
+	Plug 'Konstruktionist/vim'
+	Plug 'cocopon/iceberg.vim'
+	Plug 'altercation/vim-colors-solarized'
 
 	" Add plugins to &runtimepath
 	call plug#end()
@@ -41,7 +90,7 @@
 	" ---------------------------------------------
 	" Basic mappings
 	" ---------------------------------------------
-	call pathogen#infect()							" init pathogen
+	" call pathogen#infect()							" init pathogen
 
 	nnoremap Q <nop>										" removed Ex mode
 
@@ -86,7 +135,7 @@
 
 	" set color and background
 	set background=light 
-	colo gotham256
+	colo bclear
 
 	let g:lightline = {
 				\ 'colorscheme': 'wombat',
