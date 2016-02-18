@@ -8,7 +8,7 @@
 	set number							"	enable line numbering
 	set incsearch						" highlight as i type the search keyword
 	set hlsearch						" highlight found words after search
-	uet lazyredraw					" improve screen update speed
+	set lazyredraw					" improve screen update speed
 	set nocompatible				" no neet to be compatible with old vi
 	set ignorecase					" case insensitive search
 	set cursorline					" hightlight current line
@@ -64,8 +64,8 @@
 
 	" refactoring tools
 	" -------------------
-	Plug 'pgdouyon/vim-evanesco'				"removes highlight on cursor move
-	Plug 'terryma/vim-multiple-cursors'
+	Plug 'pgdouyon/vim-evanesco'							"removes highlight on cursor move
+	Plug 'terryma/vim-multiple-cursors'				"<c-n> to select
 	Plug 'machakann/vim-swap'
 	Plug 'tpope/vim-surround'
 	Plug 'junegunn/vim-easy-align'
@@ -131,8 +131,16 @@
 	" toggle showing invisible chars with <leader> q
 	nmap <leader>L :set list!<CR>
 	
+	" ---------------------------------------------
+	" copy paste
+	" ---------------------------------------------
+	
 	" paste from global buffer using <leader>9
 	nnoremap <Leader>9 "+p					
+
+	" use * register 4:copy line and 5: paste line
+	nnoremap <Leader>4 "*D
+	nnoremap <Leader>5 "*p					
 
 	" ---------------------------------------------
 	" Themes and colors 
