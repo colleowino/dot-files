@@ -61,7 +61,7 @@
 	Plug 'mattn/emmet-vim'
 	Plug 'tpope/vim-endwise'
 	Plug 'Valloric/YouCompleteMe'
-	Plug 'SirVer/ultisnips'
+	Plug 'SirVer/ultisnips'										"  mapped  to <leader><leader>
 	Plug 'honza/vim-snippets'
 
 	" refactoring tools
@@ -132,6 +132,9 @@
 
 	" toggle showing invisible chars with <leader> q
 	nmap <leader>L :set list!<CR>
+
+	" change default ultisnips trigger
+	let g:UltiSnipsExpandTrigger="<leader><leader>"
 	
 	" ---------------------------------------------
 	" copy paste
@@ -183,7 +186,7 @@
 	" ---------------------------------------------
 
 	let g:EasyMotion_startofline = 0					" keep cursor column when JK motion
-	" map <Leader>gE <Plug>(easymotion-prefix)
+	map <Leader>gE <Plug>(easymotion-prefix)
 
 	" scroll vim autocomple with j-k instead of Ctrl+n/ctrl+p
 	inoremap <expr> j ((pumvisible())?("\<C-n>"):("j"))
