@@ -34,19 +34,16 @@
 
 	" disable word highlight with cursor movement
 
-	Plug 'scrooloose/syntastic'
 	Plug 'junegunn/limelight.vim'
 	Plug 'easymotion/vim-easymotion'
 	Plug 'MattesGroeger/vim-bookmarks'
-	Plug 'pgdouyon/vim-evanesco' 
 	Plug 'nathanaelkane/vim-indent-guides'
 	Plug 'tpope/vim-unimpaired'
-	Plug 'tpope/vim-commentary'
-	Plug 'tpope/vim-endwise'
 
 	Plug 'scrooloose/nerdtree'
 	Plug 'tpope/vim-fugitive'
 	Plug 'itchyny/lightline.vim'
+	Plug 'majutsushi/tagbar'
 
 	Plug 'rking/ag.vim'
 	Plug 'Chun-Yang/vim-action-ag'
@@ -55,15 +52,19 @@
 	
 	" refactoring tools
 	" -------------------
+	Plug 'pgdouyon/vim-evanesco'				"removes highlight on cursor move
 	Plug 'terryma/vim-multiple-cursors'
 	Plug 'machakann/vim-swap'
 	Plug 'tpope/vim-surround'
 	Plug 'junegunn/vim-easy-align'
 	Plug 'godlygeek/tabular'
+	" Plug 'tpope/vim-commentary' #removed in favor of 
+	Plug 'scrooloose/nerdcommenter'	
 
 	" autocompletion
 	" -------------------
 	Plug 'mattn/emmet-vim'
+	Plug 'tpope/vim-endwise'
 	Plug 'Valloric/YouCompleteMe'
 
 	" syntax highlighters
@@ -71,6 +72,8 @@
 	Plug 'elzr/vim-json'
 	Plug 'jelera/vim-javascript-syntax'
 	Plug 'tpope/vim-rails'
+
+	Plug 'scrooloose/syntastic'
 
 	"colors
 	" -------------------
@@ -92,6 +95,7 @@
 	" Basic mappings
 	" ---------------------------------------------
 	" call pathogen#infect()							" init pathogen
+	nmap <F8> :TagbarToggle<CR>
 
 	nnoremap Q <nop>										" removed Ex mode
 
@@ -118,6 +122,12 @@
 	
 	" paste from global buffer using <leader>9
 	nnoremap <Leader>9 "+p					
+
+	" easy window navigation
+	map <leader>ol <C-w>l
+	map <leader>oh <C-w>h
+	map <leader>oj <C-w>j
+	map <leader>ok <C-w>k
 
 	" ---------------------------------------------
 	" Themes and colors 
