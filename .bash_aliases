@@ -8,8 +8,8 @@ alias gitline='git l'
 alias gls='git status '
 alias gitall='git add . && gitam '
 alias gitup='git push origin master'
-alias gitam='git commit -am '
 alias gitdwn='git pull origin master'
+alias gitam='git commit -am '
 alias ga='git add '
 alias gb='git branch '
 alias gc='git commit'
@@ -17,6 +17,7 @@ alias gd='git diff'
 alias repoget='git clone '
 alias gk='gitk --all&'
 alias gx='gitx --all'
+alias grst='git checkout '
 # git submodules 
 alias gitnewmod="git submodule add "
 alias gitmods="vim .gitmodules "
