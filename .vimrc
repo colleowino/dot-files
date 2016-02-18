@@ -40,6 +40,7 @@
 	Plug 'nathanaelkane/vim-indent-guides'
 	Plug 'tpope/vim-unimpaired'
 
+	Plug 'airblade/vim-gitgutter'
 	Plug 'scrooloose/nerdtree'
 	Plug 'tpope/vim-fugitive'
 	Plug 'itchyny/lightline.vim'
@@ -101,6 +102,9 @@
 	nmap <F8> :TagbarToggle<CR>
 
 	nnoremap Q <nop>										" removed Ex mode
+
+	" reduce git gutter update time
+	set updatetime=250
 
 	" use kj to leave insert mode 
 	inoremap kj <esc>				
@@ -208,8 +212,8 @@
 	noremap x "_x
 
 	" toggle colored right border after <size> chars
-	set colorcolumn=90
-	let s:color_column_old = 0
+	set colorcolumn=0
+	let s:color_column_old = 90
 
 	function! s:ToggleColorColumn()
 			if s:color_column_old == 0
