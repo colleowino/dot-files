@@ -71,11 +71,13 @@
 	Plug 'pgdouyon/vim-evanesco'							"removes highlight on cursor move
 	Plug 'terryma/vim-multiple-cursors'				"<c-n> to select
 	Plug 'machakann/vim-swap'
-	Plug 'tpope/vim-surround'
+	Plug 'tpope/vim-surround'									"ds\" | cs]) | cs"<q> \"
 	Plug 'junegunn/vim-easy-align'
 	Plug 'godlygeek/tabular'
 	" Plug 'tpope/vim-commentary' #removed in favor of 
 	Plug 'scrooloose/nerdcommenter'	
+	" Plug 'jiangmiao/auto-pairs'	
+	Plug 'Raimondi/delimitMate'	
 
 	" syntax
 	" -------------------
