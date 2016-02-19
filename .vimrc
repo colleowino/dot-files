@@ -80,6 +80,7 @@
 	" syntax
 	" -------------------
 	Plug 'elzr/vim-json'
+	Plug 'justinmk/vim-syntax-extra'
 	Plug 'jelera/vim-javascript-syntax'
 	Plug 'pangloss/vim-javascript'
 	Plug 'tpope/vim-rails'
@@ -87,6 +88,8 @@
 	" one to rule them all 
 	Plug 'sheerun/vim-polyglot'
 
+	" linters
+	" -------------------
 	Plug 'marijnh/tern_for_vim'
 	Plug 'scrooloose/syntastic'
 
