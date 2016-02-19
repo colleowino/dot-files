@@ -1,6 +1,8 @@
 # basic stuff 
 ubuntu-restricted-extras vlc
 gdebi variety tor-browser 
+# custom themes
+unity-tweak-tool
 # developer tools
 # krita gimp inkscape blender 
 git-core git-extras zsh tmux vim-gnome ack-grep tree
