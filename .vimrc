@@ -34,6 +34,8 @@
 
 	" disable word highlight with cursor movement
 
+	" utilites
+	" -------------------
 	Plug 'junegunn/limelight.vim'
 	Plug 'easymotion/vim-easymotion'
 	Plug 'MattesGroeger/vim-bookmarks'
@@ -97,6 +99,7 @@
 	Plug 'chriskempson/base16-vim'
 	Plug 'mbbill/desertEx'
 	Plug 'w0ng/vim-hybrid'
+	Plug 'baskerville/bubblegum'
 	Plug 'Konstruktionist/vim'
 	Plug 'cocopon/iceberg.vim'
 	Plug 'altercation/vim-colors-solarized'
@@ -164,7 +167,7 @@
 
 	" set color and background
 	set background=light 
-	colo hybrid_material
+	colo bubblegum-256-light 
 
 	let g:lightline = {
 				\ 'colorscheme': 'wombat',
