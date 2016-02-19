@@ -41,7 +41,6 @@
 	Plug 'MattesGroeger/vim-bookmarks'
 	Plug 'nathanaelkane/vim-indent-guides'
 	Plug 'tpope/vim-unimpaired'
-
 	Plug 'airblade/vim-gitgutter'
 	Plug 'scrooloose/nerdtree'
 	Plug 'tpope/vim-fugitive'
@@ -57,6 +56,7 @@
 	Plug 'Chun-Yang/vim-action-ag'
 	Plug 'wincent/command-t'
 	Plug 'kien/ctrlp.vim'
+	Plug 'dyng/ctrlsf.vim'
 	
 	" autocompletion
 	" -------------------
@@ -89,7 +89,8 @@
 	Plug 'bilalq/ruby-matchit'
 	" one to rule them all 
 	Plug 'sheerun/vim-polyglot'
-	Plug 'dyng/ctrlsf.vim'
+	Plug 'leafo/moonscript-vim'
+	Plug 'suan/vim-instant-markdown'
 
 	" linters
 	" -------------------
@@ -99,16 +100,18 @@
 	"colors
 	" -------------------
 	" convert gvim to vim colors
-	Plug 'vim-scripts/CSApprox'
-	Plug 'ap/vim-css-color'
-	Plug 'DeepAnchor/enigma.vim'
-	Plug 'chriskempson/base16-vim'
 	Plug 'mbbill/desertEx'
 	Plug 'w0ng/vim-hybrid'
-	Plug 'baskerville/bubblegum'
+	Plug 'GGalizzi/cake-vim'
+	Plug 'ap/vim-css-color'
 	Plug 'Konstruktionist/vim'
 	Plug 'cocopon/iceberg.vim'
+	Plug 'morhetz/gruvbox'
+	Plug 'vim-scripts/CSApprox'
+	Plug 'DeepAnchor/enigma.vim'
+	Plug 'chriskempson/base16-vim'
 	Plug 'altercation/vim-colors-solarized'
+	Plug 'chriskempson/vim-tomorrow-theme'
 
 	" Add plugins to &runtimepath
 	call plug#end()
@@ -145,6 +148,7 @@
 	" toggle showing invisible chars with <leader> q
 	nmap <leader>L :set list!<CR>
 
+
 	" change default ultisnips trigger
 	let g:UltiSnipsExpandTrigger="<leader><leader>"
 	
@@ -171,9 +175,16 @@
 		set t_ut=
 	endif
 
+	" testing my own theme
+	" map <silent> <leader>2 :colo Tomorrow-Moon<CR>
+
 	" set color and background
-	set background=light 
-	colo bubblegum-256-light 
+	set background=dark 
+	colo gruvbox
+
+	" in case am using gruvbox
+	let g:gruvbox_contrast_light="hard"
+	let g:gruvbox_contrast_dark="medium"
 
 	let g:lightline = {
 				\ 'colorscheme': 'wombat',
