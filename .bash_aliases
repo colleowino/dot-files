@@ -48,6 +48,7 @@ alias experia='cd ~/experia'
 
 # vim bundles folder
 alias vimbundles='cd ~/.vim/bundle'
+alias plg='cd ~/.vim/plugged'
 
 #serve draft posts
 alias jekylldraft='jekyll s --watch --drafts'
