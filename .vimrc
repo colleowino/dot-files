@@ -89,6 +89,7 @@
 	Plug 'bilalq/ruby-matchit'
 	" one to rule them all 
 	Plug 'sheerun/vim-polyglot'
+	Plug 'dyng/ctrlsf.vim'
 
 	" linters
 	" -------------------
@@ -299,3 +300,15 @@
 	" nmap <Leader>x <Plug>BookmarkClearAll
 	" nmap <Leader>kk <Plug>BookmarkMoveUp
 	" nmap <Leader>jj <Plug>BookmarkMoveDown
+	
+	" ---------------------------------------------
+	" ctrlsf.vim
+	" ---------------------------------------------
+	nmap     <C-F>f <Plug>CtrlSFPrompt
+	vmap     <C-F>f <Plug>CtrlSFVwordPath
+	vmap     <C-F>F <Plug>CtrlSFVwordExec
+	nmap     <C-F>n <Plug>CtrlSFCwordPath
+	nmap     <C-F>p <Plug>CtrlSFPwordPath
+	nnoremap <C-F>o :CtrlSFOpen<CR>
+	nnoremap <C-F>t :CtrlSFToggle<CR>
+	inoremap <C-F>t <Esc>:CtrlSFToggle<CR>
