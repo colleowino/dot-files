@@ -343,3 +343,19 @@
 	nnoremap <C-F>o :CtrlSFOpen<CR>
 	nnoremap <C-F>t :CtrlSFToggle<CR>
 	inoremap <C-F>t <Esc>:CtrlSFToggle<CR>
+
+	" ---------------------------------------------
+	" Force a file type
+	" ---------------------------------------------
+	nnoremap _cs :set filetype=css<CR>
+	nnoremap _er :set filetype=eruby<CR>
+	nnoremap _ht :set filetype=html<CR>
+	nnoremap _js :set filetype=javascript<CR>
+	nnoremap _md :set filetype=markdown<CR>
+	nnoremap _ph :set filetype=php<CR>
+	nnoremap _py :set filetype=python<CR>
+	nnoremap _rb :set filetype=ruby<CR>
+	nnoremap _sh :set filetype=sh<CR>
+	nnoremap _tx :set filetype=text<CR>
+	nnoremap _vi :set filetype=vim<CR>
+	nnoremap _xm :set filetype=xml<CR>
