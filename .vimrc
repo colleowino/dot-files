@@ -38,20 +38,21 @@
 	" utilites
 	" -------------------
 	Plug 'itchyny/calendar.vim'
-	Plug 'vim-scripts/ZoomWin'								"zoom current window <c-w>o"
+	Plug 'vim-scripts/ZoomWin'							"zoom current window <c-w>o
+	"OFF! Plug 'b4b4r07/vim-favdir'								"save dirs Reg/del/show {name}, Gg {dir} 
 	Plug 'itchyny/lightline-powerful'
-	Plug 'junegunn/limelight.vim'
+	Plug 'junegunn/limelight.vim'						" focus		:Limelight1/0.1
 	Plug 'easymotion/vim-easymotion'
-	Plug 'MattesGroeger/vim-bookmarks'
+	Plug 'MattesGroeger/vim-bookmarks'			" <leader>mm to toggle, <leader>mn next
 	Plug 'nathanaelkane/vim-indent-guides'
 	Plug 'tpope/vim-unimpaired'
 	Plug 'airblade/vim-gitgutter'
 	Plug 'scrooloose/nerdtree'
 	Plug 'tpope/vim-fugitive'
 	Plug 'itchyny/lightline.vim'
-	Plug 'majutsushi/tagbar'
+	Plug 'majutsushi/tagbar'								" autotag <f8> 
 	Plug 'christoomey/vim-tmux-navigator'
-	Plug 'mtth/scratch.vim'
+	Plug 'mtth/scratch.vim'									" temporary notes :Scratch
 	Plug 'junegunn/goyo.vim'
 
 	" search tools
@@ -194,9 +195,9 @@
 	endif
 
 	if &term =~ '256color'
-		" disable Background Color Erase (BCE) so that color schemes
-		" render properly when inside 256-color tmux and GNU screen.
-		" see also http://snk.tuxfamily.org/log/vim-256color-bce.html
+		 "disable Background Color Erase (BCE) so that color schemes
+		 "render properly when inside 256-color tmux and GNU screen.
+		 "see also http://snk.tuxfamily.org/log/vim-256color-bce.html
 		set t_ut=
 	endif
 
@@ -205,7 +206,7 @@
 
 	" set color and background
 	set background=dark 
-	colo Tomorrow-Night-Bright
+	colo bclear
 
 	" in case am using gruvbox
 	let g:gruvbox_contrast_light="hard"
