@@ -23,6 +23,8 @@ alias gitnewmod="git submodule add "
 alias gitmods="vim .gitmodules "
 alias gitmodcurrent="git submodule update " # this pulls the saved state
 alias gitmodupdate="git submodule foreach git pull origin master"
+# use git extras to ignore files
+alias gitnot="git ignore "
 
 ## don't like using rake
 alias koans='ruby path_to_enlightenment.rb'
@@ -71,9 +73,6 @@ alias tree="tree -L 1 -C"
 # moving colors folder to vim 
 alias vimkolor="cp -a colors ~/.vim"
 
-# use git extras to ignore files
-alias gitnot="git ignore "
-
 # cmake call
 alias cmaker="cmake .. -DCMAKE_INSTALL_PREFIX=/usr "
 
@@ -89,4 +88,7 @@ alias gamebegin=" grep -vE "^#" myapts | xargs sudo apt-get -y install "
 
 # redirect to the newer grep
 alias ack="ack-grep "
+
+# start gui xampp
+alias xampp="sudo /opt/lampp/manager-linux-x64.run &"
 
