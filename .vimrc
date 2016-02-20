@@ -87,10 +87,24 @@
 	Plug 'pangloss/vim-javascript'
 	Plug 'tpope/vim-rails'
 	Plug 'bilalq/ruby-matchit'
-	" one to rule them all 
-	Plug 'sheerun/vim-polyglot'
-	Plug 'leafo/moonscript-vim'
+	Plug 'nelstrom/vim-markdown-folding',  { 'for': 'markdown' }
 	Plug 'suan/vim-instant-markdown'
+	Plug 'dbakker/vim-lint',               { 'for': 'vim' }
+	Plug 'dbakker/vim-sparkup',            { 'for': 'html' }
+	Plug 'nelstrom/vim-markdown-folding',  { 'for': 'markdown' }
+	Plug 'shawncplus/phpcomplete.vim',     { 'for': 'php' }
+	Plug 'tpope/vim-bundler'
+	Plug 'tpope/vim-jdaddy',               { 'for': 'json' }
+	Plug 'tpope/vim-rake'
+	Plug 'tpope/vim-rbenv'
+ 	Plug 'bilalq/ruby-matchit'
+ 	" one to rule them all 
+ 	Plug 'sheerun/vim-polyglot'
+ 	Plug 'leafo/moonscript-vim'
+	" jekyll
+	Plug 'noahfrederick/vim-jekyll'
+	Plug 'tpope/vim-dispatch'
+	Plug 'tpope/vim-liquid'
 
 	" linters
 	" -------------------
@@ -151,6 +165,12 @@
 
 	" change default ultisnips trigger
 	let g:UltiSnipsExpandTrigger="<leader><leader>"
+
+ 	" ---------------------------------------------
+	"	dispatch 
+	" ---------------------------------------------
+	autocmd FileType java let b:dispatch = 'javac %'
+	nnoremap <F9> :Dispatch<CR>
 	
 	" ---------------------------------------------
 	" copy paste
