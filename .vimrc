@@ -36,6 +36,9 @@
 
 	" utilites
 	" -------------------
+	Plug 'itchyny/calendar.vim'
+	Plug 'vim-scripts/ZoomWin'								"zoom current window <c-w>o"
+	Plug 'itchyny/lightline-powerful'
 	Plug 'junegunn/limelight.vim'
 	Plug 'easymotion/vim-easymotion'
 	Plug 'MattesGroeger/vim-bookmarks'
@@ -200,14 +203,14 @@
 
 	" set color and background
 	set background=dark 
-	colo gruvbox
+	colo Tomorrow-Night-Bright
 
 	" in case am using gruvbox
 	let g:gruvbox_contrast_light="hard"
 	let g:gruvbox_contrast_dark="medium"
 
 	let g:lightline = {
-				\ 'colorscheme': 'wombat',
+				\ 'colorscheme': 'PaperColor_light',
 				\ }
 
 	" ---------------------------------------------
