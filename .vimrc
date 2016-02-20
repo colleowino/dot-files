@@ -119,6 +119,7 @@
 	" -------------------
 	" convert gvim to vim colors
 	Plug 'mbbill/desertEx'
+	Plug 'zeis/vim-kolor'
 	Plug 'w0ng/vim-hybrid'
 	Plug 'GGalizzi/cake-vim'
 	Plug 'ap/vim-css-color'
