@@ -20,7 +20,8 @@
 	set autoread						" notify about external file changes when saving 
 	set noswapfile					" http://robots.thoughtbot.com/post/18739402579/global-gitignore#comment-458413287	
 	set backspace=indent,eol,start			" Fixed some backspace issues
-	set listchars=tab:▸\ ,eol:¬		" Use the same symbols as TextMate for tabstops and EOLs
+	" Use the same symbols as TextMate for tabstops and EOLs
+	set listchars=eol:¬,tab:▸\ ,trail:•,extends:»,precedes:«,conceal:†,nbsp:␣
 	set nobackup
 	set nowritebackup
 	set directory^=$home/.vim/swap/		" don't swap in my working directory
