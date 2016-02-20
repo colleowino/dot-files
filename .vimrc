@@ -38,6 +38,7 @@
 	" utilites
 	" -------------------
 	Plug 'itchyny/calendar.vim'
+	Plug 'blueyed/vim-diminactive'
 	Plug 'vim-scripts/ZoomWin'							"zoom current window <c-w>o
 	"OFF! Plug 'b4b4r07/vim-favdir'								"save dirs Reg/del/show {name}, Gg {dir} 
 	Plug 'itchyny/lightline-powerful'
@@ -148,7 +149,7 @@
 	set updatetime=250
 
 	" use kj to leave insert mode 
-	inoremap kj <esc>				
+	inoremap kj <esc>
 
 	" let vim reload on saving .vimrc 
 	augroup reload_vimrc " {
@@ -168,6 +169,10 @@
 	" toggle showing invisible chars with <leader> q
 	nmap <leader>L :set list!<CR>
 
+	" highlight changed lines with with gl/gj/gk
+	nmap <silent> gl :GitGutterLineHighlightsToggle<CR>
+	nmap gj <Plug>GitGutterNextHunk
+	nmap gk <Plug>GitGutterPrevHunk
 
 	" change default ultisnips trigger
 	let g:UltiSnipsExpandTrigger="<leader><leader>"
@@ -184,7 +189,7 @@
 
 	" use global + register 4:copy line and 5: paste line
 	nnoremap <Leader>4 "+Y
-	nnoremap <Leader>5 "+p					
+	nnoremap <Leader>5 "+p
 
 	" ---------------------------------------------
 	" Themes and colors 
@@ -201,12 +206,14 @@
 		set t_ut=
 	endif
 
+	let base16colorspace=256  " Access colors present in 256 colorspace
+
 	" testing my own theme
 	" map <silent> <leader>2 :colo Tomorrow-Moon<CR>
 
 	" set color and background
 	set background=dark 
-	colo bclear
+	colo hybrid_material
 
 	" in case am using gruvbox
 	let g:gruvbox_contrast_light="hard"
@@ -221,11 +228,11 @@
 	" ---------------------------------------------
 	
 	" normal mode: save
-	nnoremap <c-s> :w<cr> 
+	nnoremap <c-s> :w<cr>
 	" insert mode: escape to normal and save
-	inoremap <c-s> <Esc>:w<CR> 
+	inoremap <c-s> <Esc>:w<CR>
 	" insert mode: escape to normal and save
-	vnoremap <c-s> <Esc>:w<CR> 
+	vnoremap <c-s> <Esc>:w<CR>
 
 	" update contents <leader>q 
 	nmap <leader>Q :e! <CR>
