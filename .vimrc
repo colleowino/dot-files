@@ -179,6 +179,9 @@
 	" change default ultisnips trigger
 	let g:UltiSnipsExpandTrigger="<leader><leader>"
 
+	" use mru to open old files
+	nmap <leader>o :Mru<CR>
+
  	" ---------------------------------------------
 	"	dispatch 
 	" ---------------------------------------------
