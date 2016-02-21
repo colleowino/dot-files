@@ -40,7 +40,6 @@
 	Plug 'itchyny/calendar.vim'
 	Plug 'vim-scripts/ZoomWin'							"zoom current window <c-w>o
 	"OFF! Plug 'b4b4r07/vim-favdir'								"save dirs Reg/del/show {name}, Gg {dir} 
-	Plug 'itchyny/lightline-powerful'
 	Plug 'easymotion/vim-easymotion'
 	Plug 'MattesGroeger/vim-bookmarks'			" <leader>mm to toggle, <leader>mn next
 	Plug 'nathanaelkane/vim-indent-guides'
@@ -48,6 +47,8 @@
 	Plug 'scrooloose/nerdtree'
 	Plug 'tpope/vim-fugitive'
 	Plug 'airblade/vim-gitgutter'
+	Plug 'itchyny/lightline-powerful'
+ 	Plug 'bilalq/ruby-matchit'
 	Plug 'itchyny/lightline.vim'
 	Plug 'majutsushi/tagbar'								" autotag <f8> 
 	Plug 'christoomey/vim-tmux-navigator'
@@ -122,6 +123,7 @@
 	" -------------------
 	Plug 'marijnh/tern_for_vim'
 	Plug 'scrooloose/syntastic'
+	Plug 'artur-shaik/vim-javacomplete2'
 
 	"colors
 	" -------------------
