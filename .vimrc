@@ -38,23 +38,24 @@
 	" utilites
 	" -------------------
 	Plug 'itchyny/calendar.vim'
-	Plug 'blueyed/vim-diminactive'
 	Plug 'vim-scripts/ZoomWin'							"zoom current window <c-w>o
 	"OFF! Plug 'b4b4r07/vim-favdir'								"save dirs Reg/del/show {name}, Gg {dir} 
 	Plug 'itchyny/lightline-powerful'
-	Plug 'junegunn/limelight.vim'						" focus		:Limelight1/0.1
 	Plug 'easymotion/vim-easymotion'
 	Plug 'MattesGroeger/vim-bookmarks'			" <leader>mm to toggle, <leader>mn next
 	Plug 'nathanaelkane/vim-indent-guides'
 	Plug 'tpope/vim-unimpaired'
-	Plug 'airblade/vim-gitgutter'
 	Plug 'scrooloose/nerdtree'
 	Plug 'tpope/vim-fugitive'
+	Plug 'airblade/vim-gitgutter'
 	Plug 'itchyny/lightline.vim'
 	Plug 'majutsushi/tagbar'								" autotag <f8> 
 	Plug 'christoomey/vim-tmux-navigator'
 	Plug 'mtth/scratch.vim'									" temporary notes :Scratch
+	Plug 'blueyed/vim-diminactive'
+	Plug 'junegunn/limelight.vim'						" focus		:Limelight1/0.1
 	Plug 'junegunn/goyo.vim'
+	Plug 'vim-scripts/mru.vim'						"	:MRU to view all recent files
 
 	" search tools
 	" -------------------
