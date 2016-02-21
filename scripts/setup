@@ -16,5 +16,11 @@ echo "  > Updating all git submodules..."
 # git submodule init &> /dev/null
 # git submodule update &> /dev/null
 #sudo apt-get install $(grep -vE "^#" .myapts )
-$(grep -vE "^#" myapts )
+
+echo "updating shell colors"
+#git clone https://github.com/chriskempson/base16-shell.git
+cd base16-shell
+. ./base16-ocean-dark.sh
+echo "shell colo update complete"
+
 echo "==> Done with setup."
