@@ -55,7 +55,6 @@
 	Plug 'blueyed/vim-diminactive'
 	Plug 'junegunn/limelight.vim'						" focus		:Limelight1/0.1
 	Plug 'junegunn/goyo.vim'
-	Plug 'vim-scripts/mru.vim'						"	:MRU to view all recent files
 
 	" search tools
 	" -------------------
@@ -64,6 +63,8 @@
 	Plug 'wincent/command-t'
 	Plug 'kien/ctrlp.vim'
 	Plug 'dyng/ctrlsf.vim'
+	Plug 'vim-scripts/mru.vim'						"	:MRU to view all recent files
+	Plug 'vim-scripts/Rename'							"	saveas
 	
 	" autocompletion
 	" -------------------
@@ -234,6 +235,8 @@
 	inoremap <c-s> <Esc>:w<CR>
 	" insert mode: escape to normal and save
 	vnoremap <c-s> <Esc>:w<CR>
+	" save as
+	nnoremap <C-S-s> :saveas 
 
 	" update contents <leader>q 
 	nmap <leader>Q :e! <CR>
