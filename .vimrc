@@ -113,6 +113,10 @@
 	Plug 'noahfrederick/vim-jekyll'
 	Plug 'tpope/vim-dispatch'
 	Plug 'tpope/vim-liquid'
+	" clojure biz
+	Plug 'guns/vim-clojure-static',		{ 'for'	: 'clojure'}
+	Plug 'guns/vim-clojure-highlight',	{	'for'	:	'clojure'}
+
 
 	" linters
 	" -------------------
@@ -239,7 +243,7 @@
 	" insert mode: escape to normal and save
 	vnoremap <c-s> <Esc>:w<CR>
 	" save as
-	nnoremap <C-S-s> :saveas 
+	nnoremap <C-S-s> :saveas
 
 	" update contents <leader>q 
 	nmap <leader>Q :e! <CR>
