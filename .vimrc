@@ -186,6 +186,9 @@
 	" use mru to open old files
 	nmap <leader>o :Mru<CR>
 
+	" use mru to open old files
+	nmap <F5> :NERDTreeToggle<CR>
+
  	" ---------------------------------------------
 	"	dispatch 
 	" ---------------------------------------------
