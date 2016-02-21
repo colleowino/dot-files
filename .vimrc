@@ -44,16 +44,16 @@
 	Plug 'MattesGroeger/vim-bookmarks'			" <leader>mm to toggle, <leader>mn next
 	Plug 'nathanaelkane/vim-indent-guides'
 	Plug 'tpope/vim-unimpaired'
-	Plug 'scrooloose/nerdtree'
-	Plug 'tpope/vim-fugitive'
-	Plug 'airblade/vim-gitgutter'
+	Plug 'scrooloose/nerdtree'							" Toggle with <F5> 
+	Plug 'tpope/vim-fugitive'								
+	Plug 'airblade/vim-gitgutter'		" highlight : gl, next/prev : gj/gk
 	Plug 'itchyny/lightline-powerful'
  	Plug 'bilalq/ruby-matchit'
 	Plug 'itchyny/lightline.vim'
 	Plug 'majutsushi/tagbar'								" autotag <f8> 
 	Plug 'christoomey/vim-tmux-navigator'
 	Plug 'mtth/scratch.vim'									" temporary notes :Scratch
-	Plug 'blueyed/vim-diminactive'
+	Plug 'blueyed/vim-diminactive'					" dim other windows automatically
 	Plug 'junegunn/limelight.vim'						" focus		:Limelight1/0.1
 	Plug 'junegunn/goyo.vim'
 
@@ -80,13 +80,13 @@
 	Plug 'pgdouyon/vim-evanesco'							"removes highlight on cursor move
 	Plug 'terryma/vim-multiple-cursors'				"<c-n> to select
 	Plug 'machakann/vim-swap'
-	Plug 'tpope/vim-surround'									"ds\" | cs]) | cs"<q> \"
+	Plug 'tpope/vim-surround'									"ds\" | cs]) | cs\"<q> \"
 	Plug 'junegunn/vim-easy-align'
 	Plug 'godlygeek/tabular'
 	" Plug 'tpope/vim-commentary' #removed in favor of 
 	Plug 'scrooloose/nerdcommenter'	
 	" Plug 'jiangmiao/auto-pairs'	
-	Plug 'Raimondi/delimitMate'	
+	Plug 'Raimondi/delimitMate'								" automatially add end braces
 
 	" syntax
 	" -------------------
@@ -113,6 +113,7 @@
 	" jekyll
 	Plug 'noahfrederick/vim-jekyll'
 	Plug 'tpope/vim-dispatch'
+	Plug 'tpope/vim-projectionist'
 	Plug 'tpope/vim-liquid'
 	" clojure biz
 	Plug 'guns/vim-clojure-static',		{ 'for'	: 'clojure'}
@@ -227,7 +228,7 @@
 
 	" set color and background
 	set background=dark 
-	colo hybrid_material
+	colo Tomorrow-Night-Bright
 
 	" in case am using gruvbox
 	let g:gruvbox_contrast_light="hard"
