@@ -178,6 +178,9 @@
 	" toggle showing invisible chars with <leader> q
 	nmap <leader>L :set list!<CR>
 
+	" reload .vimrc
+	nnoremap <Leader>4 :source ~/.vimrc
+
 	" highlight changed lines with with gl/gj/gk
 	nmap <silent> gl :GitGutterLineHighlightsToggle<CR>
 	nmap gj <Plug>GitGutterNextHunk
@@ -203,7 +206,7 @@
 	" ---------------------------------------------
 
 	" use global + register 4:copy line and 5: paste line
-	nnoremap <Leader>4 "+Y
+	nnoremap <Leader>4 "+
 	nnoremap <Leader>5 "+p
 
 	" ---------------------------------------------
