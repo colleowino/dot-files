@@ -1,7 +1,7 @@
 	let mapleader = " "			" leader
 	set timeoutlen=600			" capture kj as a single command 
 	set ts=2								" tabs should have width of 2
-	set shiftwidth=2				" size of an "indent"
+	set shiftwidth=2				" size of an indent
 	set softtabstop=2				" combination of spaces/tabs to stimulate tab width
 	set ruler								" show row and column in footer
 	set autoindent					" set auto indent
@@ -37,56 +37,56 @@
 
 	" utilites
 	" -------------------
-	Plug 'itchyny/calendar.vim'
-	Plug 'vim-scripts/ZoomWin'							"zoom current window <c-w>o
-	"OFF! Plug 'b4b4r07/vim-favdir'								"save dirs Reg/del/show {name}, Gg {dir} 
+	Plug 'itchyny/calendar.vim'            " :calendar
+	Plug 'vim-scripts/ZoomWin'             " zoom current window <c-w>o
 	Plug 'easymotion/vim-easymotion'
-	Plug 'MattesGroeger/vim-bookmarks'			" <leader>mm to toggle, <leader>mn next
+	Plug 'MattesGroeger/vim-bookmarks'     " <leader>mm to toggle, <leader>mn next
 	Plug 'nathanaelkane/vim-indent-guides'
-	Plug 'tpope/vim-unimpaired'
-	Plug 'scrooloose/nerdtree'							" Toggle with <F5> 
-	Plug 'tpope/vim-fugitive'								
-	Plug 'airblade/vim-gitgutter'		" highlight : gl, next/prev : gj/gk
-	Plug 'itchyny/lightline-powerful'
  	Plug 'bilalq/ruby-matchit'
-	Plug 'itchyny/lightline.vim'
-	Plug 'majutsushi/tagbar'								" autotag <f8> 
-	Plug 'christoomey/vim-tmux-navigator'
-	Plug 'mtth/scratch.vim'									" temporary notes :Scratch
-	Plug 'blueyed/vim-diminactive'					" dim other windows automatically
-	Plug 'junegunn/limelight.vim'						" focus		:Limelight1/0.1
+	Plug 'tpope/vim-unimpaired'
+	Plug 'scrooloose/nerdtree'             " Toggle with <F5>
+	Plug 'tpope/vim-fugitive'              " git wrapper :Gcommit/write/status/git
+	Plug 'airblade/vim-gitgutter'          " highlight : gl, next/prev : gj/gk
+	Plug 'majutsushi/tagbar'               " autotag <f8>
+	Plug 'christoomey/vim-tmux-navigator'	" <c-h/j/k/l> withing tabs and tmux
+	Plug 'mtth/scratch.vim'               " temporary notes :Scratch
+	Plug 'blueyed/vim-diminactive'         " dim other windows automatically
+	Plug 'junegunn/limelight.vim'          " focus		:Limelight1/0.1
 	Plug 'junegunn/goyo.vim'
+	Plug 'itchyny/lightline-powerful'
+	Plug 'itchyny/lightline.vim'
+	"OFF! Plug 'b4b4r07/vim-favdir'				"save dirs Reg/del/show {name}, Gg {dir} 
 
 	" search tools
 	" -------------------
+	Plug 'pgdouyon/vim-evanesco'      " removes highlight on cursor move
+	Plug 'vim-scripts/mru.vim'				"	:MRU to view all recent files, <leader>o
+	Plug 'vim-scripts/Rename'					"	saveas
 	Plug 'rking/ag.vim'
 	Plug 'Chun-Yang/vim-action-ag'
 	Plug 'wincent/command-t'
 	Plug 'kien/ctrlp.vim'
 	Plug 'dyng/ctrlsf.vim'
-	Plug 'vim-scripts/mru.vim'						"	:MRU to view all recent files
-	Plug 'vim-scripts/Rename'							"	saveas
 	
 	" autocompletion
 	" -------------------
-	Plug 'mattn/emmet-vim'
+	Plug 'SirVer/ultisnips'						"  mapped  to <leader><leader>
 	Plug 'tpope/vim-endwise'
+	Plug 'mattn/emmet-vim'
 	Plug 'Valloric/YouCompleteMe'
-	Plug 'SirVer/ultisnips'										"  mapped  to <leader><leader>
 	Plug 'honza/vim-snippets'
 
 	" refactoring tools
 	" -------------------
-	Plug 'pgdouyon/vim-evanesco'							"removes highlight on cursor move
-	Plug 'terryma/vim-multiple-cursors'				"<c-n> to select
-	Plug 'machakann/vim-swap'
-	Plug 'tpope/vim-surround'									"ds\" | cs]) | cs\"<q> \"
-	Plug 'junegunn/vim-easy-align'
-	Plug 'godlygeek/tabular'
-	" Plug 'tpope/vim-commentary' #removed in favor of 
-	Plug 'scrooloose/nerdcommenter'	
+	Plug 'godlygeek/tabular'            " Tab /=
+	Plug 'Raimondi/delimitMate'         " automatially add end braces
+	Plug 'terryma/vim-multiple-cursors' " <c-n> to select
+	Plug 'tpope/vim-surround'						"	ds\" | cs]) | cs\"<q> \"
+	Plug 'machakann/vim-swap'						"	g<, g>, gs
+	Plug 'scrooloose/nerdcommenter'			" <leader> ci/cn/cc/ cA {end of line}
+	Plug 'junegunn/vim-easy-align'  
 	" Plug 'jiangmiao/auto-pairs'	
-	Plug 'Raimondi/delimitMate'								" automatially add end braces
+	" Plug 'tpope/vim-commentary' #removed in favor of nerdcommenter
 
 	" syntax
 	" -------------------
@@ -192,7 +192,7 @@
 	" use mru to open old files
 	nmap <leader>o :Mru<CR>
 
-	" use mru to open old files
+	" toogle nerd tree
 	nmap <F5> :NERDTreeToggle<CR>
 
  	" ---------------------------------------------
@@ -252,7 +252,7 @@
 	" insert mode: escape to normal and save
 	vnoremap <c-s> <Esc>:w<CR>
 	" save as
-	nnoremap <C-S-s> :saveas
+	nnoremap <C-S-s> :saveas<space>
 
 	" update contents <leader>q 
 	nmap <leader>Q :e! <CR>
@@ -268,19 +268,15 @@
 	inoremap <expr> j ((pumvisible())?("\<C-n>"):("j"))
 	inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
 
-	"easy-motion 2 char search 
-	nmap s <Plug>(easymotion-s2)
-	nmap t <Plug>(easymotion-t2)
-
 	"easy-motion replace default find
-	map  / <Plug>(easymotion-sn)
-	omap / <Plug>(easymotion-tn)
+	"map  / <Plug>(easymotion-sn)
+	"omap / <Plug>(easymotion-tn)
 
 	" These `n` & `N` mappings are options. You do not have to map `n` & `N` to EasyMotion.
 	" Without these mappings, `n` & `N` works fine. (These mappings just provide
 	" different highlight method and have some other features )
-	map  n <Plug>(easymotion-next)
-	map  N <Plug>(easymotion-prev)
+	"map  n <Plug>(easymotion-next)
+	"map  N <Plug>(easymotion-prev)
 
 	"easy-motion hjkl motions
 	map <Leader>l <Plug>(easymotion-lineforward)
