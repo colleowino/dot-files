@@ -179,7 +179,7 @@
 	nmap <leader>L :set list!<CR>
 
 	" reload .vimrc
-	nnoremap <Leader>4 :source ~/.vimrc
+	nnoremap <Leader>9 :source ~/.vimrc<CR>
 
 	" highlight changed lines with with gl/gj/gk
 	nmap <silent> gl :GitGutterLineHighlightsToggle<CR>
@@ -206,7 +206,7 @@
 	" ---------------------------------------------
 
 	" use global + register 4:copy line and 5: paste line
-	nnoremap <Leader>4 "+
+	map <Leader>4 "+
 	nnoremap <Leader>5 "+p
 
 	" ---------------------------------------------
