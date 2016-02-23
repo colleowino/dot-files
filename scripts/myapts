@@ -6,6 +6,7 @@ gdebi variety tor-browser
 # developer tools
 # krita gimp inkscape blender 
 #git-core git-extras zsh tmux vim-gnome ack-grep tree
+# zsh-lovers
 	#exuberant-ctags
 	#libusb-dev cmake
 	#haskell-platform r-base clisp golang
