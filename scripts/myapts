@@ -6,7 +6,7 @@ gdebi variety tor-browser
 # developer tools
 # krita gimp inkscape blender 
 #git-core git-extras zsh tmux vim-gnome ack-grep tree
-# zsh-lovers
+# zsh-lovers ttf-ancient-fonts
 	#exuberant-ctags
 	#libusb-dev cmake
 	#haskell-platform r-base clisp golang
@@ -25,6 +25,7 @@ gdebi variety tor-browser
 # https://github.com/chriskempson/base16-shell.git
 #
 # arc theme
+# ----------------
 #	https://github.com/horst3180/arc-theme 
 #
 # Rails gems:
@@ -33,5 +34,6 @@ gdebi variety tor-browser
 # haml, sass, compass, rouge
 # 
 # Npm packages -g
+# ----------------
 # vmd, javascripting, cordova ionic, instant-markdown-d
 #
