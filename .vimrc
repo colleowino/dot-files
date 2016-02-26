@@ -75,6 +75,10 @@
 	Plug 'tpope/vim-endwise'					"	adds matching end tag ruby
 	Plug 'mattn/emmet-vim'
 	Plug 'Valloric/YouCompleteMe'
+	" added snipmate
+	Plug 'garbas/vim-snipmate'
+	Plug 'MarcWeber/vim-addon-mw-utils'
+	Plug 'tomtom/tlib_vim'
 
 	" refactoring tools
 	" -------------------
