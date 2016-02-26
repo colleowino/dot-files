@@ -70,11 +70,11 @@
 	
 	" autocompletion
 	" -------------------
-	Plug 'SirVer/ultisnips'						"  mapped  to <leader><leader>
-	Plug 'tpope/vim-endwise'
+	Plug 'SirVer/ultisnips'						" snipName <leader><leader>,  <C-j/k>
+	Plug 'honza/vim-snippets'					" ultisnips folder for ultisnips completions
+	Plug 'tpope/vim-endwise'					"	adds matching end tag ruby
 	Plug 'mattn/emmet-vim'
 	Plug 'Valloric/YouCompleteMe'
-	Plug 'honza/vim-snippets'
 
 	" refactoring tools
 	" -------------------
