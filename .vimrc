@@ -231,7 +231,7 @@
 
 	" set color and background
 	set background=dark 
-	colo gotham256
+	colo hybrid
 
 	" in case am using gruvbox
 	let g:gruvbox_contrast_light="hard"
