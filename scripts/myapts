@@ -19,6 +19,11 @@ gdebi variety tor-browser
 # https://github.com/ggreer/the_silver_searcher.git
 # automake pkg-config libpcre3-dev zlib1g-dev liblzma-dev
 #
+# install some dictionaries
+# ----------------
+#	dict dictd dict-gcide dict-wn  dict-devil dict-freedict-eng-rus
+#	artha gnome-dictionary
+#
 #	custom look
 # ----------------
 # use better shell colors : base16-ocean-dark
