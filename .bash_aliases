@@ -34,6 +34,7 @@ alias serveFolder='python -m SimpleHTTPServer'
 
 # apt-get shortcuts
 alias aptinst='sudo apt-get install'
+alias aptgone='sudo apt-get remove'
 alias aptrepo='sudo add-apt-repository'
 alias aptnew='sudo apt-get update'
 
