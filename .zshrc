@@ -128,7 +128,7 @@ export GOPATH="$HOME/Documents/source-code/misc/go-stuff"
 export PATH="/usr/local/heroku/bin:$PATH"
 
 ### Use default adb
-export PATH="/mnt/win_8/ubuntu_files/sdk/platform-tools:$PATH"
+export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
 export ANDROID_HOME="/mnt/win_8/ubuntu_files/sdk"
 
 # prefer xterm
