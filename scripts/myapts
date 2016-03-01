@@ -19,6 +19,11 @@ gdebi variety tor-browser
 # https://github.com/ggreer/the_silver_searcher.git
 # automake pkg-config libpcre3-dev zlib1g-dev liblzma-dev
 #
+# get ubuntu make https://wiki.ubuntu.com/ubuntu-make
+# ----------------
+#  sudo add-apt-repository ppa:ubuntu-desktop/ubuntu-make 
+#  ubuntu-make
+#
 # install some dictionaries
 # ----------------
 #	dict dictd dict-gcide dict-wn  dict-devil dict-freedict-eng-rus
