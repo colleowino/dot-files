@@ -39,7 +39,7 @@ alias aptrepo='sudo add-apt-repository'
 alias aptnew='sudo apt-get update'
 
 ## folders
-alias showdirs='ls -dl */ '
+alias showdirs='ls -1 -d */ '
 alias opendir='nautilus . '
 alias docs='cd ~/Documents'
 alias ytfolder='cd ~/Documents/yt_lessons'
