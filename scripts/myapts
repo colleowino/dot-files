@@ -9,6 +9,7 @@ gdebi variety tor-browser
 # zsh-lovers ttf-ancient-fonts
 	#exuberant-ctags
 	#libusb-dev cmake
+	# inotify-tools -> for phoenix: elixir.
 	#haskell-platform r-base clisp golang
 # better build some from source 
 #
