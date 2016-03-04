@@ -41,6 +41,7 @@ alias aptnew='sudo apt-get update'
 ## folders
 alias showdirs='ls -1 -d */ '
 alias opendir='nautilus . '
+alias blank='cd ~/blank'
 alias docs='cd ~/Documents'
 alias ytfolder='cd ~/Documents/yt_lessons'
 alias dwnl='cd ~/Downloads'
