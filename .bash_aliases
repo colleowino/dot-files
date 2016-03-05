@@ -96,3 +96,5 @@ alias ack="ack-grep "
 # start gui xampp
 alias xampp="sudo /opt/lampp/manager-linux-x64.run &"
 
+# start postgres
+alias pgstart="psql postgres"
