@@ -98,3 +98,7 @@ alias xampp="sudo /opt/lampp/manager-linux-x64.run &"
 
 # start postgres
 alias pgstart="psql postgres"
+
+# update gem system
+alias gmupdate="gem update --system "
+
