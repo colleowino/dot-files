@@ -77,9 +77,14 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#move all alias to separte file
+#move all alias to separate file
 if [ -f ~/.bash_aliases ]; then 
 	. ~/.bash_aliases
+fi
+
+# stash
+if [ -f ~/.stash ]; then 
+	. ~/.stash
 fi
 
 # default editors
