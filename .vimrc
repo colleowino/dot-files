@@ -364,6 +364,8 @@
 		autocmd BufRead,BufNewFile *.md setlocal spell
 		" activate javacomplete2
 		autocmd FileType java setlocal omnifunc=javacomplete#Complete
+		" read scss as css
+		autocmd BufNewFile,BufRead *.scss		set ft=scss.css
 	endif
 
 	" ---------------------------------------------
