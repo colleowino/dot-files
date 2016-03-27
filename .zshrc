@@ -112,7 +112,7 @@ setopt noflowcontrol
 export PATH="/usr/local/heroku/bin:$PATH"
 
 ### Use default adb
-export GRADLE_USER_HOME="~/.gradle"
+export GRADLE_USER_HOME="/home/cliff/.gradle"
 export ANDROID_HOME="/home/cliff/sdk/"
 export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
 
