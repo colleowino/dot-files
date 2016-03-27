@@ -102,3 +102,7 @@ alias pgstart="psql postgres"
 # update gem system
 alias gmupdate="gem update --system "
 
+# gradle
+alias gwrap="vim gradle/wrapper/gradle-wrapper.properties"
+alias mkdroid="./gradlew assembleDebug"
+alias prepdroid="sudo chmod +x gradlew "

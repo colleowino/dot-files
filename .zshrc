@@ -133,7 +133,7 @@ export GOPATH="$HOME/Documents/source-code/misc/go-stuff"
 export PATH="/usr/local/heroku/bin:$PATH"
 
 ### Use default adb
-export ANDROID_HOME="~/sdk"
+export ANDROID_HOME="/home/cliff/sdk/"
 export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
 
 # prefer xterm
