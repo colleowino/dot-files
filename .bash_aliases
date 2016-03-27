@@ -103,6 +103,6 @@ alias pgstart="psql postgres"
 alias gmupdate="gem update --system "
 
 # gradle
-alias gwrap="vim gradle/wrapper/gradle-wrapper.properties"
+alias wrapdroid="vim gradle/wrapper/gradle-wrapper.properties"
 alias mkdroid="./gradlew assembleDebug"
 alias prepdroid="sudo chmod +x gradlew "

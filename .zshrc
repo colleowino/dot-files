@@ -100,31 +100,10 @@ export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 ### added by the heroku toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
-#postgres install
-export PATH="/usr/lib/postgresql/9.4/bin:$PATH"
-
-#export perl5 lib
-# [https://github.com/c9s/Vimana]
-export PERL5LIB="$HOME/perl5/lib/perl5"
-export PATH="$HOME/perl5/bin:$PATH"
-
 # enable control-s and control-q
 stty start undef
 stty stop undef
 setopt noflowcontrol
-
-#add electron to path
-export PATH="~/Documents/source-code/misc/electron:$PATH"
-export PATH="$PATH:/usr/local/go/bin"
-
-export CALIBRE_DEVELOP_FROM="~/Documents/source-code/misc/calibre/src"
-export GRADLE_USER_HOME="~/.gradle"
-
-#change default npm path
-export PATH=~/npm-global/bin:$PATH
-
-# Setting a default go-path
-export GOPATH="$HOME/Documents/source-code/misc/go-stuff"
 
 # add z directory search
 . ~/z.sh
@@ -133,6 +112,7 @@ export GOPATH="$HOME/Documents/source-code/misc/go-stuff"
 export PATH="/usr/local/heroku/bin:$PATH"
 
 ### Use default adb
+export GRADLE_USER_HOME="~/.gradle"
 export ANDROID_HOME="/home/cliff/sdk/"
 export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
 
