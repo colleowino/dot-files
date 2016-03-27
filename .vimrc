@@ -249,7 +249,7 @@
 
 	" set color and background
 	set background=dark 
-	colo iceberg
+	colo Tomorrow-Night
 
 	" in case am using gruvbox
 	let g:gruvbox_contrast_light="hard"
