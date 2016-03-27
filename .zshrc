@@ -133,8 +133,13 @@ export GOPATH="$HOME/Documents/source-code/misc/go-stuff"
 export PATH="/usr/local/heroku/bin:$PATH"
 
 ### Use default adb
+export ANDROID_HOME="~/sdk"
 export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
-export ANDROID_HOME="/mnt/win_8/ubuntu_files/sdk"
 
 # prefer xterm
 export TERM=xterm-256color
+
+# export aws tools
+export EC2_HOME=/usr/local/ec2/ec2-api-tools-1.7.5.1
+export PATH=$PATH:$EC2_HOME/bin 
+
