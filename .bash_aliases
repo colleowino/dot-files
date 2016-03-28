@@ -25,6 +25,8 @@ alias gitmodcurrent="git submodule update " # this pulls the saved state
 alias gitmodupdate="git submodule foreach git pull origin master"
 # use git extras to ignore files
 alias gitnot="git ignore "
+alias gshremote="git remote -v"
+
 
 ## don't like using rake
 alias koans='ruby path_to_enlightenment.rb'
