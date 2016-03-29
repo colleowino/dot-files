@@ -106,7 +106,9 @@ alias pgstart="psql postgres"
 alias gmupdate="gem update --system "
 
 # gradle
-alias wrapdroid="vim gradle/wrapper/gradle-wrapper.properties"
-alias mkdroid="./gradlew assembleDebug"
-alias prepdroid="sudo chmod +x gradlew "
-alias profdroid="vim app/build.gradle"
+alias droidwrap="vim gradle/wrapper/gradle-wrapper.properties"
+alias droidmk="./gradlew assembleDebug"
+alias droidprep="sudo chmod +x gradlew "
+alias droidprof="vim app/build.gradle"
+alias droidmwrap="cp -f ~/sdk/grady/gradle-wrapper.properties gradle/wrapper/. "
+
