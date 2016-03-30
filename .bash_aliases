@@ -111,4 +111,6 @@ alias mkdroid="./gradlew assembleDebug"
 alias mvdroid="cp -f ~/sdk/grady/gradle-wrapper.properties gradle/wrapper/. "
 alias prepdroid="sudo chmod +x gradlew "
 alias droidprof="vim app/build.gradle"
+alias classconf="vim build.gradle"
+
 
