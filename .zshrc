@@ -119,6 +119,9 @@ export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
 # prefer xterm
 export TERM=xterm-256color
 
+# add npm global prefix to path
+export PATH="/home/cliff/npm-global/bin:$PATH"
+
 # export aws tools
 export EC2_HOME=/usr/local/ec2/ec2-api-tools-1.7.5.1
 export PATH=$PATH:$EC2_HOME/bin 
