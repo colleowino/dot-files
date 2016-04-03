@@ -112,7 +112,7 @@ alias mkdroid="./gradlew assembleDebug"
 alias mvdroid="cp -f ~/sdk/grady/gradle-wrapper.properties gradle/wrapper/. "
 alias prepdroid="sudo chmod +x gradlew "
 alias droidprof="vim app/build.gradle"
-alias classconf="vim build.gradle"
+alias droidconf="vim build.gradle"
 alias sendapk='find -name "*.apk" | head -1 | xargs adb install '
 
 
