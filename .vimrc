@@ -219,14 +219,6 @@
 	" ---------------------------------------------
 	autocmd FileType java let b:dispatch = 'javac %'
 	nnoremap <F9> :Dispatch<CR>
-	
-	" ---------------------------------------------
-	" copy paste
-	" ---------------------------------------------
-
-	" use global + register 4:copy line and 5: paste line
-	map <Leader>4 "+
-	nnoremap <Leader>5 "+p
 
 	" ---------------------------------------------
 	" Themes and colors 
