@@ -115,6 +115,8 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export GRADLE_USER_HOME="/home/cliff/.gradle"
 export ANDROID_HOME="/home/cliff/sdk/"
 export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
+export GRADLE_HOME="/home/cliff/mygradle/gradle-2.12"
+export PATH="${PATH}:$GRADLE_HOME/bin"
 
 # prefer xterm
 export TERM=xterm-256color
