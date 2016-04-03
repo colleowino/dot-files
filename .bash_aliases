@@ -114,5 +114,7 @@ alias prepdroid="sudo chmod +x gradlew "
 alias droidprof="vim app/build.gradle"
 alias droidconf="vim build.gradle"
 alias sendapk='find -name "*.apk" | head -1 | xargs adb install '
+alias findapk=' find -name "apk" '
+
 
 

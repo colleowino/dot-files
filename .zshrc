@@ -128,3 +128,7 @@ export PATH="/home/cliff/npm-global/bin:$PATH"
 export EC2_HOME=/usr/local/ec2/ec2-api-tools-1.7.5.1
 export PATH=$PATH:$EC2_HOME/bin 
 
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/cliff/.sdkman"
+[[ -s "/home/cliff/.sdkman/bin/sdkman-init.sh" ]] && source "/home/cliff/.sdkman/bin/sdkman-init.sh"
