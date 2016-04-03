@@ -90,6 +90,7 @@
 	Plug 'machakann/vim-swap'						"	g<, g>, gs
 	Plug 'scrooloose/nerdcommenter'			" <leader> ci/cn/cc/ cA {end of line}
 	Plug 'junegunn/vim-easy-align'  
+	Plug 'richsoni/vim-ecliptic'				" c-prefix :y/d/p using global clipboard
 	" Plug 'jiangmiao/auto-pairs'	
 	" Plug 'tpope/vim-commentary' #removed in favor of nerdcommenter
 
