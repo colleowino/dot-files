@@ -18,6 +18,8 @@ alias repoget='git clone '
 alias gk='gitk --all&'
 alias gx='gitx --all'
 alias grst='git checkout '
+alias gassumenot='git update-index --assume-unchanged '
+
 # git submodules 
 alias gitnewmod="git submodule add "
 alias gitmods="vim .gitmodules "
