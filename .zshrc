@@ -2,8 +2,8 @@
 export ZSH="/home/cliff/.oh-my-zsh"
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="rkj-repos"
-#ZSH_THEME="chris"
+ZSH_THEME="junkfood"
+#ZSH_THEME="rkj-repos"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
