@@ -132,3 +132,7 @@ export PATH=$PATH:$EC2_HOME/bin
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/cliff/.sdkman"
 [[ -s "/home/cliff/.sdkman/bin/sdkman-init.sh" ]] && source "/home/cliff/.sdkman/bin/sdkman-init.sh"
+
+# highlight code in less
+export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
+export LESS=' -R '
