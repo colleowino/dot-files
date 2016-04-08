@@ -19,6 +19,8 @@ alias gk='gitk --all&'
 alias gx='gitx --all'
 alias grst='git checkout '
 alias gassumenot='git update-index --assume-unchanged '
+alias gmine='git checkout --ours -- '
+alias gtheirs='git checkout --theirs -- '
 
 # git submodules 
 alias gitnewmod="git submodule add "
