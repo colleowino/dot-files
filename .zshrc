@@ -115,7 +115,7 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export GRADLE_USER_HOME="/home/cliff/.gradle"
 export ANDROID_HOME="/home/cliff/sdk/"
 export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
-export GRADLE_HOME="/home/cliff/mygradle/gradle-2.12"
+export GRADLE_HOME="/home/cliff/mygradle/gradle-2.10"
 export PATH="${PATH}:$GRADLE_HOME/bin"
 
 # prefer xterm
@@ -123,6 +123,10 @@ export TERM=xterm-256color
 
 # add npm global prefix to path
 export PATH="/home/cliff/npm-global/bin:$PATH"
+
+# add some custome scripts to path
+export PATH="/home/cliff/sdk/build-tools/23.0.3:$PATH"
+export PATH="/home/cliff/mybin:$PATH"
 
 # export aws tools
 export EC2_HOME=/usr/local/ec2/ec2-api-tools-1.7.5.1
