@@ -120,7 +120,8 @@ alias droidconf="vim build.gradle"
 alias sendapk='find -name "*.apk" | head -1 | xargs adb install '
 alias findapk=' find -name "*.apk" '
 alias rundroid='findapk | head -1 | xargs adb-run.sh '
-alias packandsend='sendapk && rundroid'
+alias droidgo=' findapk | xargs adb-gone.sh'
+alias drup='sendapk && rundroid'
 
 
 
