@@ -403,3 +403,7 @@
 	nnoremap _tx :set filetype=text<CR>
 	nnoremap _vi :set filetype=vim<CR>
 	nnoremap _xm :set filetype=xml<CR>
+
+	" tired of omnicomplete replacing the word I chose
+	inoremap <expr> <C-n> pumvisible() ? '<C-n>' :
+  \ '<C-n><C-r>=pumvisible() ? "\<lt>Down>" : ""<CR>'
