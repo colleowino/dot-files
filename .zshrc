@@ -43,7 +43,7 @@ ZSH_THEME="kphoen"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting)
+plugins=(git zsh-syntax-highlighting dirhistory)
 
 # User configuration
 
@@ -108,9 +108,6 @@ setopt noflowcontrol
 # add z directory search
 . ~/z.sh
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
 ### Use default adb
 export GRADLE_USER_HOME="/home/cliff/.gradle"
 export ANDROID_HOME="/home/cliff/sdk/"
@@ -132,7 +129,7 @@ export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
 export LESS=' -R '
 
 # bash-16 shell colors
-BASE16_SHELL="$HOME/.config/base16-shell/base16-3024.dark.sh"
+BASE16_SHELL="$HOME/.config/base16-shell/base16-shapeshifter.dark.sh"
 [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
