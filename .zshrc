@@ -124,18 +124,8 @@ export TERM=xterm-256color
 # add npm global prefix to path
 export PATH="/home/cliff/npm-global/bin:$PATH"
 
-# add some custome scripts to path
-export PATH="/home/cliff/sdk/build-tools/23.0.3:$PATH"
+# add some custom scripts to path
 export PATH="/home/cliff/mybin:$PATH"
-
-# export aws tools
-export EC2_HOME=/usr/local/ec2/ec2-api-tools-1.7.5.1
-export PATH=$PATH:$EC2_HOME/bin 
-
-
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/home/cliff/.sdkman"
-[[ -s "/home/cliff/.sdkman/bin/sdkman-init.sh" ]] && source "/home/cliff/.sdkman/bin/sdkman-init.sh"
 
 # highlight code in less
 export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
@@ -144,3 +134,7 @@ export LESS=' -R '
 # bash-16 shell colors
 BASE16_SHELL="$HOME/.config/base16-shell/base16-3024.dark.sh"
 [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/cliff/.sdkman"
+[[ -s "/home/cliff/.sdkman/bin/sdkman-init.sh" ]] && source "/home/cliff/.sdkman/bin/sdkman-init.sh"
