@@ -78,6 +78,7 @@ alias tmuxprof="vim ~/.tmux.conf"
 alias bashprof="vim ~/.bashrc"
 alias gitprof="vim ~/.gitconfig"
 alias aka="vim ~/.bash_aliases"
+alias stash="vim ~/.stash"
 
 alias tree="tree -L 1 -C"
 
