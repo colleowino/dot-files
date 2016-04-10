@@ -275,10 +275,6 @@
 	let g:EasyMotion_startofline = 0					" keep cursor column when JK motion
 	map <Leader>gE <Plug>(easymotion-prefix)
 
-	" scroll vim autocomple with j-k instead of Ctrl+n/ctrl+p
-	inoremap <expr> j ((pumvisible())?("\<C-n>"):("j"))
-	inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
-
 	"easy-motion replace default find
 	"map  / <Plug>(easymotion-sn)
 	"omap / <Plug>(easymotion-tn)
@@ -404,6 +400,7 @@
 	nnoremap _vi :set filetype=vim<CR>
 	nnoremap _xm :set filetype=xml<CR>
 
-	" tired of omnicomplete replacing the word I chose
-	inoremap <expr> <C-n> pumvisible() ? '<C-n>' :
-  \ '<C-n><C-r>=pumvisible() ? "\<lt>Down>" : ""<CR>'
+	" ---------------------------------------------
+	" omnicomplete
+	" ---------------------------------------------
+	inoremap <expr> <C-s> pumvisible() ? "\<C-Y>" : "\<s>"
