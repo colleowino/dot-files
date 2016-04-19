@@ -1,5 +1,6 @@
 # Path to your oh-my-zsh installation.  export ZSH=/home/cliff/.oh-my-zsh Set name of the theme to load.
 export ZSH="/home/cliff/.oh-my-zsh"
+
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="kphoen"
@@ -123,6 +124,9 @@ export PATH="/home/cliff/npm-global/bin:$PATH"
 
 # add some custom scripts to path
 export PATH="/home/cliff/mybin:$PATH"
+
+# add pip modules to path
+export PATH="$HOME/.local/bin/:$PATH"
 
 # highlight code in less
 export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
