@@ -152,6 +152,8 @@
 	" Add plugins to &runtimepath
 	call plug#end()
 
+	let g:syntastic_java_javac_classpath = "/home/cliff/sdk/platforms/android-23/*.jar"
+
 	" ---------------------------------------------
 	" Basic mappings
 	" ---------------------------------------------
