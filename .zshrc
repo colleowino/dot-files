@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.  export ZSH=/home/cliff/.oh-my-zsh Set name of the theme to load.
-export ZSH="/home/cliff/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
@@ -110,20 +110,20 @@ setopt noflowcontrol
 . ~/z.sh
 
 ### Use default adb
-export GRADLE_USER_HOME="/home/cliff/.gradle"
-export ANDROID_HOME="/home/cliff/sdk/"
+export GRADLE_USER_HOME="$HOME/.gradle"
+export ANDROID_HOME="$HOME/sdk/"
 export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
-export GRADLE_HOME="/home/cliff/mygradle/gradle-2.10"
+export GRADLE_HOME="$HOME/mygradle/gradle-2.10"
 export PATH="${PATH}:$GRADLE_HOME/bin"
 
 # prefer xterm
 export TERM=xterm-256color
 
 # add npm global prefix to path
-export PATH="/home/cliff/npm-global/bin:$PATH"
+export PATH="$HOME/npm-global/bin:$PATH"
 
 # add some custom scripts to path
-export PATH="/home/cliff/mybin:$PATH"
+export PATH="$HOME/mybin:$PATH"
 
 # add pip modules to path
 export PATH="$HOME/.local/bin/:$PATH"
@@ -137,5 +137,5 @@ BASE16_SHELL="$HOME/.config/base16-shell/base16-shapeshifter.dark.sh"
 [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/home/cliff/.sdkman"
-[[ -s "/home/cliff/.sdkman/bin/sdkman-init.sh" ]] && source "/home/cliff/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
