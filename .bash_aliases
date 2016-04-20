@@ -31,6 +31,7 @@ alias gitmodupdate="git submodule foreach git pull origin master"
 alias gitnot="git ignore "
 alias gshremote="git remote -v"
 alias gchngorigin="git remote set-url origin "
+alias guntrackedgone="git status --porcelain | grep '^??' | cut -c4- >> .gitignore"
 
 
 ## don't like using rake
