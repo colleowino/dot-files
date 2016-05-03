@@ -128,6 +128,9 @@ export PATH="$HOME/mybin:$PATH"
 # add pip modules to path
 export PATH="$HOME/.local/bin/:$PATH"
 
+# add composer stuff
+export PATH="$HOME/.composer/vendor/bin:$PATH"
+
 # highlight code in less
 export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
 export LESS=' -R '
