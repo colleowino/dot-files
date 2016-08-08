@@ -113,6 +113,9 @@ alias pgstart="psql postgres"
 # update gem system
 alias gmupdate="gem update --system "
 
+# check the public ip
+alias publcip="wget -qO- http://ipecho.net/plain ; echo "
+
 # gradle
 alias wrpdroid="vim gradle/wrapper/gradle-wrapper.properties"
 alias mkdroid="./gradlew assembleDebug"
