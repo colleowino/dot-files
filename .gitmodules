@@ -1,3 +1,7 @@
+# terminal stuff
+[submodule "~/.config/base16-shell"]
+	path = ~/.config/base16-shell
+	url = https://github.com/chriskempson/base16-shell.git
 # oh-my-zsh stuff
 [submodule ".oh-my-zsh/plugins/zsh-syntax-highlighting"]
 	path = .oh-my-zsh/plugins/zsh-syntax-highlighting
@@ -106,3 +110,6 @@
 [submodule ".vim/bundle/vim-action-ag"]
 	path = .vim/bundle/vim-action-ag
 	url = https://github.com/Chun-Yang/vim-action-ag.git
+[submodule ".config/base16-shell"]
+	path = .config/base16-shell
+	url = https://github.com/chriskempson/base16-shell
