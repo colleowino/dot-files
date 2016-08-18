@@ -58,6 +58,7 @@ alias dropb='cd ~/Dropbox'
 alias xtrarepo='cd ~/Documents/source-code/misc'
 alias blogs='cd ~/Documents/source-code/blog'
 alias mycode='cd ~/Documents/source-code'
+alias builds='cd ~/Documents/source-code/builds'
 alias thinks='cd /mnt/depot/Think_tank'
 alias experia='cd ~/experia'
 
