@@ -144,7 +144,6 @@
 	Plug 'cocopon/iceberg.vim'
 	Plug 'morhetz/gruvbox'
 	Plug 'vim-scripts/CSApprox'
-	Plug 'DeepAnchor/enigma.vim'
 	Plug 'chriskempson/base16-vim'
 	Plug 'altercation/vim-colors-solarized'
 	Plug 'chriskempson/vim-tomorrow-theme'
