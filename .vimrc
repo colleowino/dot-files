@@ -25,7 +25,7 @@
 	set nobackup
 	set nowritebackup
 	set directory^=$home/.vim/swap/		" don't swap in my working directory
-	syntax on
+	" syntax on
 	filetype plugin indent on
 
 	" ---------------------------------------------
@@ -213,7 +213,10 @@
 
 	" Set this to the name of your terminal that supports mouse codes.
 	" Must be one of: xterm, xterm2, netterm, dec, jsbterm, pterm
-	set ttymouse=xterm2
+	" guard neovim from this
+	if !has('nvim')
+		set ttymouse=xterm2
+	endif
 
  	" ---------------------------------------------
 	"	dispatch 
