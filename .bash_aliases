@@ -111,6 +111,9 @@ alias lampconf="sudo vim /opt/lampp/etc/httpd.conf"
 # start postgres
 alias pgstart="psql postgres"
 
+# restore baticon
+alias baticon="/usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service &disown"
+
 # update gem system
 alias gmupdate="gem update --system "
 
