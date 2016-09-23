@@ -117,6 +117,10 @@ alias baticon="/usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
 # update gem system
 alias gmupdate="gem update --system "
 
+# backup atom packages
+alias pkgatom="apm list --installed --bare > ~/atom-packages.list"
+alias repatom="apm install `cat ~/atom-packages.list`"
+
 # check the public ip
 alias publcip="wget -qO- http://ipecho.net/plain ; echo "
 
