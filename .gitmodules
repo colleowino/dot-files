@@ -6,52 +6,6 @@
 [submodule ".oh-my-zsh/plugins/zsh-syntax-highlighting"]
 	path = .oh-my-zsh/plugins/zsh-syntax-highlighting
 	url = http://github.com/zsh-users/zsh-syntax-highlighting
-# vim addons
-[submodule ".vim/bundle/syntastic"]
-	path = .vim/bundle/syntastic
-	url = https://github.com/scrooloose/syntastic.git
-[submodule ".vim/bundle/YouCompleteMe"]
-	path = .vim/bundle/YouCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe.git
-[submodule ".vim/bundle/vim-easymotion"]
-	path = .vim/bundle/vim-easymotion
-	url = https://github.com/easymotion/vim-easymotion.git
-[submodule ".vim/bundle/emmet-vim"]
-	path = .vim/bundle/emmet-vim
-	url = https://github.com/mattn/emmet-vim.git
-[submodule ".vim/bundle/ctrlp.vim"]
-	path = .vim/bundle/ctrlp.vim
-	url = https://github.com/kien/ctrlp.vim.git
-[submodule ".vim/bundle/lightline.vim"]
-	path = .vim/bundle/lightline.vim
-	url = https://github.com/itchyny/lightline.vim.git
-[submodule ".vim/bundle/vim-multiple-cursors"]
-	path = .vim/bundle/vim-multiple-cursors
-	url = https://github.com/terryma/vim-multiple-cursors
-[submodule ".vim/bundle/nerdtree"]
-	path = .vim/bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree
-[submodule ".vim/bundle/vim-surround"]
-	path = .vim/bundle/vim-surround
-	url = https://github.com/tpope/vim-surround
-[submodule ".vim/bundle/vim-unimpaired"]
-	path = .vim/bundle/vim-unimpaired
-	url = https://github.com/tpope/vim-unimpaired
-[submodule ".vim/bundle/vim-commentary"]
-	path = .vim/bundle/vim-commentary
-	url = https://github.com/tpope/vim-commentary
-[submodule ".vim/bundle/vim-endwise"]
-	path = .vim/bundle/vim-endwise
-	url = https://github.com/tpope/vim-endwise
-[submodule ".vim/bundle/vim-fugitive"]
-	path = .vim/bundle/vim-fugitive
-	url = https://github.com/tpope/vim-fugitive
-[submodule ".vim/bundle/vim-rails"]
-	path = .vim/bundle/vim-rails
-	url = https://github.com/tpope/vim-rails
-[submodule ".vim/bundle/base16-vim"]
-	path = .vim/bundle/base16-vim
-	url = https://github.com/chriskempson/base16-vim.git
 # tmux stuff
 [submodule ".tmux/plugins/tmux-continuum"]
 	path = .tmux/plugins/tmux-continuum
@@ -65,51 +19,3 @@
 [submodule ".tmux/plugins/tpm"]
 	path = .tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm.git
-[submodule ".vim/bundle/desertEx"]
-	path = .vim/bundle/desertEx
-	url = https://github.com/mbbill/desertEx.git
-[submodule ".vim/bundle/command-t"]
-	path = .vim/bundle/command-t
-	url = https://github.com/wincent/command-t.git
-[submodule ".vim/bundle/vim-javascript-syntax"]
-	path = .vim/bundle/vim-javascript-syntax
-	url = https://github.com/jelera/vim-javascript-syntax.git
-[submodule ".vim/bundle/vim-hybrid"]
-	path = .vim/bundle/vim-hybrid
-	url = https://github.com/w0ng/vim-hybrid.git
-[submodule ".vim/bundle/vim"]
-	path = .vim/bundle/vim
-	url = https://github.com/Konstruktionist/vim.git
-[submodule ".vim/bundle/vim-json"]
-	path = .vim/bundle/vim-json
-	url = https://github.com/elzr/vim-json.git
-[submodule ".vim/bundle/vim-css-color"]
-	path = .vim/bundle/vim-css-color
-	url = https://github.com/ap/vim-css-color.git
-[submodule ".vim/bundle/tabular"]
-	path = .vim/bundle/tabular
-	url = https://github.com/godlygeek/tabular.git
-[submodule ".vim/bundle/enigma.vim"]
-	path = .vim/bundle/enigma.vim
-	url = https://github.com/DeepAnchor/enigma.vim.git
-[submodule ".vim/bundle/iceberg.vim"]
-	path = .vim/bundle/iceberg.vim
-	url = https://github.com/cocopon/iceberg.vim.git
-[submodule ".vim/bundle/vim-colors-solarized"]
-	path = .vim/bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
-[submodule ".vim/bundle/vim-bookmarks"]
-	path = .vim/bundle/vim-bookmarks
-	url = https://github.com/MattesGroeger/vim-bookmarks
-[submodule ".vim/bundle/limelight.vim"]
-	path = .vim/bundle/limelight.vim
-	url = https://github.com/junegunn/limelight.vim.git
-[submodule ".vim/bundle/ag.vim"]
-	path = .vim/bundle/ag.vim
-	url = https://github.com/rking/ag.vim.git
-[submodule ".vim/bundle/vim-action-ag"]
-	path = .vim/bundle/vim-action-ag
-	url = https://github.com/Chun-Yang/vim-action-ag.git
-[submodule ".config/base16-shell"]
-	path = .config/base16-shell
-	url = https://github.com/chriskempson/base16-shell
