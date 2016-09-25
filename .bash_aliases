@@ -25,6 +25,7 @@ alias hardreset='git reset --hard '
 
 # git submodules 
 alias gitnewmod="git submodule add "
+alias gpullmods="git submodule update --init --recursive"
 alias gitmods="vim .gitmodules "
 alias gitmodcurrent="git submodule update " # this pulls the saved state
 alias gitmodupdate="git submodule foreach git pull origin master"
