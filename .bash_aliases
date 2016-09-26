@@ -120,7 +120,7 @@ alias gmupdate="gem update --system "
 
 # backup atom packages
 alias pkgatom="apm list --installed --bare > ~/atom-packages.list"
-alias repatom="apm install `cat ~/atom-packages.list`"
+alias repatom="apm install --packages-file atom-packages.list"
 
 # check the public ip
 alias publcip="wget -qO- http://ipecho.net/plain ; echo "
