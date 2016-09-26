@@ -44,7 +44,7 @@ ZSH_THEME="kphoen"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting dirhistory)
+plugins=(git dirhistory zsh-syntax-highlighting)
 
 # User configuration
 
