@@ -136,7 +136,8 @@ export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
 export LESS=' -R '
 
 # bash-16 shell colors
-BASE16_SHELL="$HOME/.config/base16-shell/scripts/base16-flat.sh"
+# prefer: flat,monokai,isotope, macintosh, summerfruit
+BASE16_SHELL="$HOME/.config/base16-shell/scripts/base16-summerfruit.sh"
 [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
