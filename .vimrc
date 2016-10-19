@@ -73,7 +73,7 @@
 	Plug 'SirVer/ultisnips'						" snipName <leader><leader>,  <C-j/k>
 	Plug 'honza/vim-snippets'					" ultisnips folder for ultisnips completions
 	Plug 'tpope/vim-endwise'					"	adds matching end tag ruby
-	Plug 'mattn/emmet-vim'						" <C-y>, | d, i, m(merge lines) k(remove block)
+	Plug 'mattn/emmet-vim'						" <C-y> + , | d, i, m(merge lines) k(remove block)
 																		" /(toggle comment)
 	Plug 'Valloric/YouCompleteMe'
 	" added snipmate
