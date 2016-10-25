@@ -70,6 +70,7 @@
 	
 	" autocompletion
 	" -------------------
+	Plug 'chrisgillis/vim-bootstrap3-snippets' "bootstrap snippets 
 	Plug 'SirVer/ultisnips'						" snipName <leader><leader>,  <C-j/k>
 	Plug 'honza/vim-snippets'					" ultisnips folder for ultisnips completions
 	Plug 'tpope/vim-endwise'					"	adds matching end tag ruby
