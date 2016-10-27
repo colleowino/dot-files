@@ -149,3 +149,5 @@ export PATH="/home/cliff/.linuxbrew/bin:$PATH"
 export MANPATH="/home/cliff/.linuxbrew/share/man:$MANPATH"
 export INFOPATH="/home/cliff/.linuxbrew/share/info:$INFOPATH"
 
+# added by Anaconda3 4.2.0 installer
+export PATH="/home/kole/anaconda3/bin:$PATH"
