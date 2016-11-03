@@ -112,6 +112,9 @@ alias lampconf="sudo vim /opt/lampp/etc/httpd.conf"
 # start postgres
 alias pgstart="psql postgres"
 
+# when audio acting up
+alias fixaudio="sudo alsa force-reload"
+
 # restore baticon
 alias baticon="/usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service &disown"
 
