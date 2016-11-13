@@ -119,3 +119,6 @@ fi
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/cliff/.sdkman"
 [[ -s "/home/cliff/.sdkman/bin/sdkman-init.sh" ]] && source "/home/cliff/.sdkman/bin/sdkman-init.sh"
+
+# added by Anaconda3 4.2.0 installer
+export PATH="/home/kole/anaconda3/bin:$PATH"
