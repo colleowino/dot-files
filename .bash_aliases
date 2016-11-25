@@ -1,5 +1,7 @@
 #!/bin/bash
 
+alias vim='nvim'
+
 #reload shell
 alias reshell='exec $SHELL'
 
@@ -135,7 +137,7 @@ alias mvdroid="cp -f ~/sdk/grady/gradle-wrapper.properties gradle/wrapper/. "
 alias prepdroid="sudo chmod +x gradlew "
 alias droidprof="vim app/build.gradle"
 alias droidconf="vim build.gradle"
-alias sendapk='find -name "*.apk" | head -1 | xargs adb install '
+alias sendapk='find -name "*.apk" | head -1 | xargs adb install -r '
 alias findapk=' find -name "*.apk" '
 alias rundroid='findapk | head -1 | xargs adb-run.sh '
 alias droidgo=' findapk | xargs adb-gone.sh'
