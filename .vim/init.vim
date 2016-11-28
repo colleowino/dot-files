@@ -1,1 +1,1 @@
-/home/cliff/.vimrc
+/home/kole/.vimrc
