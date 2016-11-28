@@ -131,17 +131,17 @@ alias repatom="apm install --packages-file atom-packages.list"
 alias publcip="wget -qO- http://ipecho.net/plain ; echo "
 
 # gradle
-alias wrpdroid="vim gradle/wrapper/gradle-wrapper.properties"
 alias mkdroid="./gradlew assembleDebug"
 alias mvdroid="cp -f ~/sdk/grady/gradle-wrapper.properties gradle/wrapper/. "
 alias prepdroid="sudo chmod +x gradlew "
 alias droidprof="vim app/build.gradle"
 alias droidconf="vim build.gradle"
-alias sendapk='find -name "*.apk" | head -1 | xargs adb install -r '
-alias findapk=' find -name "*.apk" '
 alias rundroid='findapk | head -1 | xargs adb-run.sh '
 alias droidgo=' findapk | xargs adb-gone.sh'
 alias drup='sendapk && rundroid'
 
+alias findapk=' find -name "*.apk" '
+alias findappid='grep -r --include "*.gradle" "applicationId.*\".*\"" | grep -o "\".*\"" '
+alias sendapk='find -name "*.apk" | head -1 | xargs adb install -r '
 
 
