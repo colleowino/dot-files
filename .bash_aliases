@@ -51,7 +51,7 @@ alias aptrepo='sudo add-apt-repository'
 alias aptnew='sudo apt-get update'
 
 ## folders
-alias showdirs='ls -1 -d */ '
+alias lsd='ls -1 -d */ '
 alias opendir='nautilus . '
 alias blank='cd ~/blank'
 alias docs='cd ~/Documents'
