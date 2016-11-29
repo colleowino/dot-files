@@ -143,5 +143,6 @@ alias findapk=' find -name "*.apk" '
 alias findappid='grep -r --include "*.gradle" "applicationId.*\".*\"" | grep -o "\".*\"" '
 alias mkdroid="gradle assembleDebug"
 alias sendapk='find -name "*.apk" | head -1 | xargs adb install -r '
+alias edigrad=' find -name "build.gradle" | xargs subl '
 
 
