@@ -113,6 +113,8 @@ setopt noflowcontrol
 export GRADLE_USER_HOME="$HOME/.gradle"
 export ANDROID_HOME="$HOME/sdk/"
 export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
+export ANDROID_NDK="$HOME/ndk/"
+export PATH="$ANDROID_NDK:$PATH"
 export GRADLE_HOME="$HOME/mygradle/gradle-2.14.1"
 export PATH="${PATH}:$GRADLE_HOME/bin"
 
