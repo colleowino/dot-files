@@ -1,7 +1,5 @@
 #!/bin/bash
 
-alias vim='nvim'
-
 #reload shell
 alias reshell='exec $SHELL'
 
@@ -108,7 +106,7 @@ alias gamebegin=" grep -vE "^#" myapts | xargs sudo apt-get -y install "
 alias ack="ack-grep "
 
 # start gui xampp
-alias xampp="sudo /opt/lampp/manager-linux-x64.run &"
+alias xampp="sudo /opt/lampp/manager-linux-x64.run & "
 alias lampconf="sudo vim /opt/lampp/etc/httpd.conf"
 
 # start postgres
