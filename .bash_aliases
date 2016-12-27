@@ -106,13 +106,16 @@ alias ack="ack-grep "
 alias xampp="sudo /opt/lampp/manager-linux-x64.run & "
 alias lampconf="sudo vim /opt/lampp/etc/httpd.conf"
 
+# npm alias
+alias npmall="npm list -g --depth=0 "
+
 # start postgres
 alias pgstart="psql postgres"
 
 # when audio acting up
 alias fixaudio="sudo alsa force-reload"
 
-# restore baticon
+# restore battery icon
 alias baticon="/usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service &disown"
 
 # update gem system
