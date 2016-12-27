@@ -86,9 +86,6 @@ alias stash="vim ~/.stash"
 
 alias tree="tree -L 1 -C"
 
-# moving colors folder to vim 
-alias vimkolor="cp -a colors ~/.vim"
-
 # cmake call
 alias cmaker="cmake .. -DCMAKE_INSTALL_PREFIX=/usr "
 
