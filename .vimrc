@@ -165,6 +165,10 @@
 	" reduce git gutter update time
 	set updatetime=250
 
+	" use ctr+space instead of ctr+x and ctrl+o for omnicomplete
+	inoremap <C-Space> <C-x><C-o>
+	inoremap <C-@> <C-Space>
+	
 	" use kj to leave insert mode 
 	inoremap kj <esc>
 
