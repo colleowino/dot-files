@@ -364,6 +364,8 @@
 		autocmd FileType java setlocal omnifunc=javacomplete#Complete
 		" read scss as css
 		autocmd BufNewFile,BufRead *.scss		set ft=scss.css
+		" read php as html
+		autocmd BufNewFile,BufRead *.php		set ft=php.html
 		" read scss as css
 		autocmd BufNewFile,BufRead *.gradle		set ft=gradle.css
 	endif
