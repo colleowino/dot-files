@@ -124,6 +124,9 @@ export TERM=xterm-256color
 # add npm global prefix to path
 export PATH="$HOME/npm-global/bin:$PATH"
 
+# add npm global prefix to node_path
+export NODE_PATH="$NODE_PATH:$HOME/npm-global/lib/node_modules"
+
 # add some custom scripts to path
 export PATH="$HOME/mybin:$PATH"
 
