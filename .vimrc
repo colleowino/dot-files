@@ -77,6 +77,8 @@
 	Plug 'mattn/emmet-vim'						" <C-y> + , | d, i, m(merge lines) k(remove block)
 																		" /(toggle comment)
 	Plug 'Valloric/YouCompleteMe'
+	Plug 'ternjs/tern_for_vim'				" smarter js completions in vim
+
 	" added snipmate
 	Plug 'garbas/vim-snipmate'
 	Plug 'MarcWeber/vim-addon-mw-utils'
