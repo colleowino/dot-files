@@ -113,9 +113,9 @@ setopt noflowcontrol
 export GRADLE_USER_HOME="$HOME/.gradle"
 export ANDROID_HOME="$HOME/sdk/"
 export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
-export ANDROID_NDK_HOME="$HOME/ndk/"
-export PATH="$ANDROID_NDK_HOME:$PATH"
-export GRADLE_HOME="$HOME/mygradle/gradle-2.14.1"
+#export ANDROID_NDK_HOME="$HOME/ndk/"
+#export PATH="$ANDROID_NDK_HOME:$PATH"
+export GRADLE_HOME="$HOME/mygradle/gradle-3.4-rc-1"
 export PATH="${PATH}:$GRADLE_HOME/bin"
 
 # prefer xterm
@@ -155,4 +155,4 @@ export MANPATH="/home/cliff/.linuxbrew/share/man:$MANPATH"
 export INFOPATH="/home/cliff/.linuxbrew/share/info:$INFOPATH"
 
 # added by Anaconda3 4.2.0 installer
-export PATH="/home/kole/anaconda3/bin:$PATH"
+#export PATH="/home/kole/anaconda3/bin:$PATH"
