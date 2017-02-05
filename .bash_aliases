@@ -92,6 +92,9 @@ alias cmaker="cmake .. -DCMAKE_INSTALL_PREFIX=/usr "
 # better lisp shortcut
 alias lisp="clisp "
 
+# better 'bundle exec' shortcut
+alias bex="bundle exec "
+
 # rescue genymotion
 alias savegeny="sudo apt-get install virtualbox-dkms"
 
