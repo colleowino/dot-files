@@ -124,7 +124,7 @@ alias fixaudio="sudo alsa force-reload"
 alias baticon="/usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service &disown"
 
 # update gem system
-alias gmupdate="gem update --system "
+alias gemupdate="gem update --system "
 
 # backup atom packages
 alias pkgatom="apm list --installed --bare > ~/atom-packages.list"
