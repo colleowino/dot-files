@@ -115,7 +115,8 @@ export ANDROID_HOME="$HOME/sdk/"
 export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
 #export ANDROID_NDK_HOME="$HOME/ndk/"
 #export PATH="$ANDROID_NDK_HOME:$PATH"
-export GRADLE_HOME="$HOME/mygradle/gradle-3.4-rc-1"
+# export Gradle folder to $GRADVER in ~/.stash
+export GRADLE_HOME="$HOME/mygradle/$GRADVER"
 export PATH="${PATH}:$GRADLE_HOME/bin"
 
 # prefer xterm
