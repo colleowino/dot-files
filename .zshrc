@@ -111,7 +111,7 @@ setopt noflowcontrol
 
 ### Use default adb
 export GRADLE_USER_HOME="$HOME/.gradle"
-export ANDROID_HOME="$HOME/sdk/"
+export ANDROID_HOME="$HOME/sdk"
 export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
 #export ANDROID_NDK_HOME="$HOME/ndk/"
 #export PATH="$ANDROID_NDK_HOME:$PATH"
