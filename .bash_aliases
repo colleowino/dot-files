@@ -84,7 +84,7 @@ alias gitprof="vim ~/.gitconfig"
 alias aka="vim ~/.bash_aliases"
 alias stash="vim ~/.stash"
 
-alias tree="tree -L 1 -C"
+alias treeuno="tree -L 1 -C"
 
 # cmake call
 alias cmaker="cmake .. -DCMAKE_INSTALL_PREFIX=/usr "
