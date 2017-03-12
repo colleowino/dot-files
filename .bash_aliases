@@ -62,6 +62,7 @@ alias mycode='cd ~/Documents/source-code'
 alias builds='cd ~/Documents/source-code/builds'
 alias thinks='cd /mnt/depot/Think_tank'
 alias experia='cd ~/experia'
+alias bkmrkgtk='cd ~/.config/gtk-3.0/bookmarks'
 
 # vim bundles folder
 alias vimbundles='cd ~/.vim/bundle'
