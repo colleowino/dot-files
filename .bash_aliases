@@ -134,6 +134,9 @@ alias repatom="apm install --packages-file atom-packages.list"
 # check the public ip
 alias publcip="wget -qO- http://ipecho.net/plain ; echo "
 
+# eliminate (ebooks-dl)
+alias elimibracs="rename -v 's/\(.*\)//' "
+
 # gradle
 alias mvdroid="cp -f ~/sdk/grady/gradle-wrapper.properties gradle/wrapper/. "
 alias prepdroid="sudo chmod +x gradlew "
