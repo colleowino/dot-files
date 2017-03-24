@@ -118,6 +118,9 @@ alias npmall="npm list -g --depth=0 "
 # start postgres
 alias pgstart="psql postgres"
 
+# who owns which process: e.g httpd for apache 
+alias whoowns="ps aux | grep "
+
 # when audio acting up
 alias fixaudio="sudo alsa force-reload"
 
