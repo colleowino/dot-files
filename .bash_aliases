@@ -39,6 +39,9 @@ alias guntrackedgone="git status --porcelain | grep '^??' | cut -c4- >> .gitigno
 ## don't like using rake
 alias koans='ruby path_to_enlightenment.rb'
 
+## ipython3 alias
+alias ip3='ipython3'
+
 ## serve the current folder on local host
 alias serveFolder='python -m SimpleHTTPServer'
 
