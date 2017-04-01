@@ -41,6 +41,7 @@ alias koans='ruby path_to_enlightenment.rb'
 
 ## ipython3 alias
 alias ip3='ipython3'
+alias py3='python3 '
 
 ## serve the current folder on local host
 alias serveFolder='python -m SimpleHTTPServer'
