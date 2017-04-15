@@ -141,6 +141,10 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
 export LESS=' -R '
 
+cless () {
+    pygmentize -gf terminal "$1" | less -R
+}
+
 # bash-16 shell colors
 # prefer: flat,monokai,isotope, macintosh, summerfruit
 BASE16_SHELL="$HOME/.config/base16-shell/scripts/base16-summerfruit.sh"
