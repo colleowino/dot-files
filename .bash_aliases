@@ -110,7 +110,7 @@ alias savegeny="sudo apt-get install virtualbox-dkms"
 alias gamebegin=" grep -vE "^#" myapts | xargs sudo apt-get -y install "
 
 # redirect to the newer grep
-alias ack="ack-grep "
+#alias ack="ack-grep "
 
 # start gui xampp
 alias xampp="sudo /opt/lampp/xampp start "
