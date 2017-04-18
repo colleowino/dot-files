@@ -134,6 +134,7 @@
 	Plug 'marijnh/tern_for_vim'
 	Plug 'scrooloose/syntastic'
 	Plug 'artur-shaik/vim-javacomplete2'
+	Plug 'wakatime/vim-wakatime'					" how much time on vim
 
 	"colors
 	" -------------------
