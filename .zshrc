@@ -161,3 +161,7 @@ export INFOPATH="/home/cliff/.linuxbrew/share/info:$INFOPATH"
 
 # added by Anaconda3 4.2.0 installer
 #export PATH="/home/kole/anaconda3/bin:$PATH"
+
+# gvm
+[[ -s "/home/cliff/.gvm/scripts/gvm" ]] && source "/home/cliff/.gvm/scripts/gvm"
+
