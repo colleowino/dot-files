@@ -113,8 +113,6 @@ setopt noflowcontrol
 export GRADLE_USER_HOME="$HOME/.gradle"
 export ANDROID_HOME="$HOME/sdk"
 export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
-#export ANDROID_NDK_HOME="$HOME/ndk/"
-#export PATH="$ANDROID_NDK_HOME:$PATH"
 # export Gradle folder to $GRADVER in ~/.stash
 export GRADLE_HOME="$HOME/mygradle/$GRADVER"
 export PATH="${PATH}:$GRADLE_HOME/bin"
@@ -165,3 +163,7 @@ export INFOPATH="/home/cliff/.linuxbrew/share/info:$INFOPATH"
 # gvm
 [[ -s "/home/cliff/.gvm/scripts/gvm" ]] && source "/home/cliff/.gvm/scripts/gvm"
 
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
