@@ -90,7 +90,7 @@ fi
 
 # default editors
 export EDITOR="vim"
-export PROFILE="~/.zshrc"
+#export PROFILE="~/.zshrc"
 
 #manager ruby through rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
