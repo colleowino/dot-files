@@ -20,6 +20,7 @@ alias gx='gitx --all'
 alias grst='git checkout '
 alias gassume='git update-index --assume-unchanged '
 alias gmine='git checkout --ours -- '
+alias gtr='git ls-files --others --exclude-standard'
 alias gtheirs='git checkout --theirs -- '
 alias hardreset='git reset --hard '
 
