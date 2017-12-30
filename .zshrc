@@ -156,3 +156,8 @@ export INFOPATH="/home/cliff/.linuxbrew/share/info:$INFOPATH"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# add current nvm modules to path
+export PATH="$HOME/.nvm/versions/`node --version`/bin:$PATH"
+
+
