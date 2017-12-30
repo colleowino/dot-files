@@ -90,7 +90,6 @@ fi
 
 # default editors
 export EDITOR="vim"
-#export PROFILE="~/.zshrc"
 
 #manager ruby through rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
@@ -118,7 +117,7 @@ export GRADLE_HOME="$HOME/mygradle/$GRADVER"
 export PATH="${PATH}:$GRADLE_HOME/bin"
 
 # prefer xterm
-export TERM=xterm-256color
+#export TERM=xterm-256color
 
 # add some custom scripts to path
 export PATH="$HOME/mybin:$PATH"
@@ -151,12 +150,8 @@ export PATH="/home/cliff/.linuxbrew/bin:$PATH"
 export MANPATH="/home/cliff/.linuxbrew/share/man:$MANPATH"
 export INFOPATH="/home/cliff/.linuxbrew/share/info:$INFOPATH"
 
-# added by Anaconda3 4.2.0 installer
-#export PATH="/home/kole/anaconda3/bin:$PATH"
-
 # gvm
 [[ -s "/home/cliff/.gvm/scripts/gvm" ]] && source "/home/cliff/.gvm/scripts/gvm"
-
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
