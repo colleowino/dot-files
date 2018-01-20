@@ -105,9 +105,6 @@ stty start undef
 stty stop undef
 setopt noflowcontrol
 
-# add z directory search
-. ~/z.sh
-
 ### Use default adb
 export GRADLE_USER_HOME="$HOME/.gradle"
 export ANDROID_HOME="$HOME/sdk"
