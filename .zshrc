@@ -113,17 +113,11 @@ export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
 export GRADLE_HOME="$HOME/mygradle/$GRADVER"
 export PATH="${PATH}:$GRADLE_HOME/bin"
 
-# prefer xterm
-#export TERM=xterm-256color
-
 # add some custom scripts to path
-export PATH="$HOME/mybin:$PATH"
+#export PATH="$HOME/mybin:$PATH"
 
 # add pip modules to path
 export PATH="$HOME/.local/bin/:$PATH"
-
-# add composer stuff
-export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 # highlight code in less
 export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
@@ -138,15 +132,6 @@ cless () {
 BASE16_SHELL="$HOME/.config/base16-shell/scripts/base16-summerfruit.sh"
 [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
-
-#linuxbrew
-export PATH="/home/cliff/.linuxbrew/bin:$PATH"
-export MANPATH="/home/cliff/.linuxbrew/share/man:$MANPATH"
-export INFOPATH="/home/cliff/.linuxbrew/share/info:$INFOPATH"
-
 # gvm
 [[ -s "/home/cliff/.gvm/scripts/gvm" ]] && source "/home/cliff/.gvm/scripts/gvm"
 
@@ -156,5 +141,4 @@ export NVM_DIR="$HOME/.nvm"
 
 # add current nvm modules to path
 export PATH="$HOME/.nvm/versions/`node --version`/bin:$PATH"
-
 
