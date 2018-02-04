@@ -1,4 +1,4 @@
-# Path to your oh-my-zsh installation.  export ZSH=/home/cliff/.oh-my-zsh Set name of the theme to load.
+# Path to your oh-my-zsh installation. 
 export ZSH="$HOME/.oh-my-zsh"
 
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -47,74 +47,26 @@ ZSH_THEME="kphoen"
 plugins=(git dirhistory zsh-syntax-highlighting)
 
 # User configuration
-
 export PATH="/usr/local/sbin:/usr/.local/bin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
 
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
-
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
 #move all alias to separate file
 if [ -f ~/.bash_aliases ]; then 
 	. ~/.bash_aliases
 fi
 
-# stash
-if [ -f ~/.stash ]; then 
-	. ~/.stash
-fi
-
 # default editors
 export EDITOR="vim"
-
-#manager ruby through rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
-eval "$(rbenv init -)"
-export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
-
-### added by the heroku toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
 
 # enable control-s and control-q
 stty start undef
 stty stop undef
 setopt noflowcontrol
-
-### Use default adb
-export GRADLE_USER_HOME="$HOME/.gradle"
-export ANDROID_HOME="$HOME/sdk"
-export PATH="$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH"
-# export Gradle folder to $GRADVER in ~/.stash
-export GRADLE_HOME="$HOME/mygradle/$GRADVER"
-export PATH="${PATH}:$GRADLE_HOME/bin"
-
-# add some custom scripts to path
-#export PATH="$HOME/mybin:$PATH"
 
 # add pip modules to path
 export PATH="$HOME/.local/bin/:$PATH"
@@ -129,7 +81,7 @@ cless () {
 
 # bash-16 shell colors
 # prefer: flat,monokai,isotope, macintosh, summerfruit
-BASE16_SHELL="$HOME/.config/base16-shell/scripts/base16-summerfruit.sh"
+BASE16_SHELL="$HOME/.qbase16/base16-shell/scripts/base16-summerfruit.sh"
 [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
 
 # gvm
@@ -142,3 +94,7 @@ export NVM_DIR="$HOME/.nvm"
 # add current nvm modules to path
 export PATH="$HOME/.nvm/versions/`node --version`/bin:$PATH"
 
+# stash
+if [ -f ~/.stash ]; then 
+	. ~/.stash
+fi
