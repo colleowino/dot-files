@@ -133,12 +133,12 @@
 	" -------------------
 	Plug 'marijnh/tern_for_vim'
 	Plug 'scrooloose/syntastic'
-	Plug 'artur-shaik/vim-javacomplete2'
 	Plug 'wakatime/vim-wakatime'					" how much time on vim
 
 	"colors
 	" -------------------
 	" convert gvim to vim colors
+	Plug 'nightsense/seagrey'
 	Plug 'mbbill/desertEx'
 	Plug 'zeis/vim-kolor'
 	Plug 'w0ng/vim-hybrid'
