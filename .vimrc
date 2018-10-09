@@ -60,7 +60,7 @@
 	" search tools
 	" -------------------
 	Plug 'pgdouyon/vim-evanesco'      " removes highlight on cursor move
-	Plug 'vim-scripts/mru.vim'				"	:MRU to view all recent files, <leader>o
+	"Plug 'vim-scripts/mru.vim'				"	:MRU to view all recent files, <leader>o
 	Plug 'vim-scripts/Rename'					"	saveas
 	Plug 'rking/ag.vim'
 	Plug 'Chun-Yang/vim-action-ag'
