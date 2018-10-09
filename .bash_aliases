@@ -36,6 +36,9 @@ alias gshremote="git remote -v"
 alias gchngorigin="git remote set-url origin "
 alias guntrackedgone="git status --porcelain | grep '^??' | cut -c4- >> .gitignore"
 
+# services
+alias pgs="sudo service postgresql start"
+alias dks="sudo service docker start"
 
 ## don't like using rake
 alias koans='ruby path_to_enlightenment.rb'
@@ -97,18 +100,6 @@ alias cmaker="cmake .. -DCMAKE_INSTALL_PREFIX=/usr "
 
 # better lisp shortcut
 alias lisp="clisp "
-
-# better 'bundle exec' shortcut
-alias bex="bundle exec "
-#alias rails="bundle exec rails "
-#alias rake="bundle exec rake "
-
-# rescue genymotion
-alias savegeny="sudo apt-get install virtualbox-dkms"
-
-# initial setup installer from myapts file
-#alias gamebegin=" $( grep -vE "^#" myapts | sudo apt-get install ) "
-alias gamebegin=" grep -vE "^#" myapts | xargs sudo apt-get -y install "
 
 # redirect to the newer grep
 #alias ack="ack-grep "
