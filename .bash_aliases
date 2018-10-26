@@ -152,3 +152,6 @@ alias sendapk='find -name "*.apk" | head -1 | xargs adb install -r '
 alias edigrad=' find -name "build.gradle" | xargs subl '
 alias ediprop=' subl gradle.properties '
 
+alias speed='lscpu | grep MHz'
+
+
