@@ -153,5 +153,6 @@ alias edigrad=' find -name "build.gradle" | xargs subl '
 alias ediprop=' subl gradle.properties '
 
 alias speed='lscpu | grep MHz'
+alias speed-all='cat /proc/cpuinfo | grep "MHz"'
 
 
