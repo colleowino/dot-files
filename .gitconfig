@@ -14,3 +14,5 @@
 	tool = vimdiff2
 [color]
 	ui = true
+[core]
+	excludesfile = /home/cliff/.gitignore_global
