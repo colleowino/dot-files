@@ -55,6 +55,7 @@ alias aptinst='sudo apt-get install'
 alias aptgone='sudo apt-get remove'
 alias aptrepo='sudo add-apt-repository'
 alias aptnew='sudo apt-get update'
+alias aptgrade='sudo apt-get upgrade'
 
 ## folders
 alias lsd='ls -1 -d */ '
