@@ -44,7 +44,7 @@ ZSH_THEME="kphoen"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git dirhistory zsh-syntax-highlighting)
+plugins=(git dirhistory zsh-syntax-highlighting tmuxinator)
 
 # User configuration
 export PATH="/usr/local/sbin:/usr/.local/bin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
@@ -70,6 +70,9 @@ setopt noflowcontrol
 
 # add pip modules to path
 export PATH="$HOME/.local/bin/:$PATH"
+
+# export yarn
+export PATH="$PATH:`yarn global bin`" 
 
 # highlight code in less
 export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
