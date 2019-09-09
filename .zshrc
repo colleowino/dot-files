@@ -91,3 +91,4 @@ BASE16_SHELL="$HOME/.qbase16/base16-shell/scripts/base16-summerfruit.sh"
 if [ -f ~/.stash ]; then 
 	. ~/.stash
 fi
+export PATH=~/bin:$PATH
