@@ -92,3 +92,4 @@ if [ -f ~/.stash ]; then
 	. ~/.stash
 fi
 export PATH=~/bin:$PATH
+export PATH=/snap/bin:$PATH
