@@ -83,6 +83,7 @@ alias jekylldraft='jekyll s --watch --drafts'
 #get mp4 videos
 alias ytdl='youtube-dl -f 18 '
 alias ytaudio='youtube-dl -f 140 '
+alias ythd='youtube-dl -f 22 '
 alias ytupdate='sudo pip install --upgrade youtube-dl'
 
 #edit basic shell and vim profiles
