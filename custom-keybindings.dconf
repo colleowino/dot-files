@@ -1,0 +1,11 @@
+[/]
+calculator=['<Primary>7']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+home=['<Super>e']
+next=['AudioNext']
+pause=['AudioPlay']
+
+[custom-keybindings/custom0]
+binding='<Primary><Alt>space'
+command='rofi -show run'
+name='rofi'

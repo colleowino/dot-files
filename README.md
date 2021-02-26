@@ -19,10 +19,29 @@ Also use a setup script to clone dependencies instead of using git submodules
 
 - Open vim and `PlugInstall` to pull all extensions via vim-plug
 
-Basic environment configuration files:
+#### Optional
+
+##### Keyboard bindings
+
+- I have also backed up my keyboard shortcuts in `custom-keybindings.dconf` through
+  `dconf dump '/org/gnome/settings-daemon/plugins/media-keys/' > custom-keybindings.dconf`
+  to be restored using
+  ` dconf load '/org/gnome/settings-daemon/plugins/media-keys/' < custom-keybindings.dconf`
+
+##### Terminal profiles.
+
+- Requires [Jetbrains Mono](https://www.jetbrains.com/lp/mono/)
+
+- Saved in `gnome_terminal_settings_backup.dconf` through
+  `dconf dump /org/gnome/terminal/ > gnome_terminal_settings_backup.dconf `
+  to be restored using
+  `dconf load /org/gnome/terminal/ < gnome_terminal_settings_backup.dconf `
+
+### Looks
 
 - I use vim-gnome with gruvbox colors and [light line](https://github.com/itchyny/lightline.vim) as my status bar.
 
 ![What you should expect](my_config.png)
 
-[![forthebadge](http://forthebadge.com/images/badges/made-with-crayons.svg)](http://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com)
